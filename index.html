@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>MGT 110 Study Guide</title>
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <main id="app">
+
+    <header class="app-header">
+
+      <h1>MGT 110 Study Guide</h1>
+
+      <p class="course-name">
+        Administrative & Organizational Behavior
+      </p>
+
+      <p class="created-by">
+        Created by Teng Xiong
+      </p>
+
+    </header>
+
+
+    <!-- MAIN MENU -->
+
+    <section id="menu" class="menu-grid">
+
+
+      <!-- QUIZ 1 -->
+
+      <div class="quiz-column">
+
+        <h2>Quiz 1</h2>
+
+        <h3>Chapters 1–4</h3>
+
+        <button
+          type="button"
+          onclick="startChapter(1)">
+          Chapter 1
+        </button>
+
+        <button
+          type="button"
+          onclick="startChapter(2)">
+          Chapter 2
+        </button>
+
+        <button
+          type="button"
+          onclick="startChapter(3)">
+          Chapter 3
+        </button>
+
+        <button
+          type="button"
+          onclick="startChapter(4)">
+          Chapter 4
+        </button>
+
+        <button
+          type="button"
+          onclick="startQuizOne()">
+          Quiz 1 — Mixed Practice
+        </button>
+
+      </div>
+
+
+      <!-- QUIZ 2 -->
+
+      <div class="quiz-column coming-soon">
+
+        <h2>Quiz 2</h2>
+
+        <h3>
+          Chapters 5, 7, 8 & 12
+        </h3>
+
+        <p>Coming Soon</p>
+
+      </div>
+
+
+      <!-- QUIZ 3 -->
+
+      <div class="quiz-column coming-soon">
+
+        <h2>Quiz 3</h2>
+
+        <h3>
+          Chapters 6, 9 & 11
+        </h3>
+
+        <p>Coming Soon</p>
+
+      </div>
+
+
+      <!-- QUIZ 4 -->
+
+      <div class="quiz-column coming-soon">
+
+        <h2>Quiz 4</h2>
+
+        <h3>
+          Comprehensive Review
+        </h3>
+
+        <p>All Chapters</p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- QUIZ SCREEN -->
+
+    <section id="quiz" class="hidden">
+
+      <div class="quiz-card">
+
+        <h2 id="chapterTitle"></h2>
+
+        <p id="progress"></p>
+
+        <h3 id="questionText"></h3>
+
+        <div id="answers"></div>
+
+        <div
+          id="feedbackBox"
+          class="feedback-box hidden">
+        </div>
+
+        <button
+          type="button"
+          id="nextButton"
+          class="hidden"
+          onclick="nextQuestion()">
+          Next Question
+        </button>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- RESULTS -->
+
+    <section id="results" class="hidden">
+
+      <div class="result-card">
+
+        <h2>Quiz Complete</h2>
+
+        <p id="scoreText"></p>
+
+        <div id="chapterBreakdown"></div>
+
+
+        <div class="result-buttons">
+
+          <button
+            type="button"
+            onclick="retakeWrong()">
+            Retake Wrong Answers
+          </button>
+
+          <button
+            type="button"
+            onclick="reviewAnswers()">
+            Review All Answers
+          </button>
+
+          <button
+            type="button"
+            onclick="backToMenu()">
+            Back to Main Menu
+          </button>
+
+        </div>
+
+
+        <div id="reviewArea"></div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
