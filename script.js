@@ -1553,6 +1553,2496 @@ const questions = [
   correct: 1,
   explanation:
     "Chapter 2 emphasizes evidence-based leadership: measure important outcomes, diagnose causes, use an appropriate framework, develop an intervention, and evaluate the result."
+},
+  // ======================================================
+// CHAPTER 3
+// INDIVIDUAL DIFFERENCES
+// ======================================================
+
+{
+  chapter: 3,
+  concept: "Individual Differences",
+  type: "Application",
+  question:
+    "Two employees with similar experience respond very differently to the same workplace change. Which Chapter 3 principle best explains why a manager should avoid assuming one simple cause?",
+  answers: [
+    "People differ in personality, emotions, abilities, and attitudes, and context also matters",
+    "Employees with the same experience should behave the same way",
+    "Behavior is determined only by personality",
+    "Behavior is determined only by the situation"
+  ],
+  correct: 0,
+  explanation:
+    "Chapter 3 emphasizes that meaningful individual differences exist, but behavior reflects both the person and the situation."
+},
+
+{
+  chapter: 3,
+  concept: "Interactionist Framework",
+  type: "Framework",
+  question:
+    "A normally confident presenter becomes visibly nervous when speaking to a hostile audience. What is the best explanation using the interactionist framework?",
+  answers: [
+    "The presenter no longer has presentation ability",
+    "Behavior reflects an interaction between personal characteristics and the situation",
+    "Personality is irrelevant to behavior",
+    "The audience has changed the presenter's personality"
+  ],
+  correct: 1,
+  explanation:
+    "The interactionist framework holds that behavior is best understood by considering both the individual and the environment."
+},
+
+{
+  chapter: 3,
+  concept: "Situational Strength",
+  type: "Application",
+  question:
+    "Employees in a highly regulated laboratory follow detailed procedures, receive close supervision, and face clear consequences for violating rules. Which concept best describes this environment?",
+  answers: [
+    "Weak situation",
+    "Strong situation",
+    "Trait activation",
+    "Organizational cynicism"
+  ],
+  correct: 1,
+  explanation:
+    "A strong situation creates clear expectations and pressures people toward similar behavior."
+},
+
+{
+  chapter: 3,
+  concept: "Weak Situation",
+  type: "Application",
+  question:
+    "A salesperson has broad freedom to decide how to approach customers, structure conversations, and organize the workday. Which kind of situation is this?",
+  answers: [
+    "Strong situation",
+    "Weak situation",
+    "High continuance commitment",
+    "High emotional stability"
+  ],
+  correct: 1,
+  explanation:
+    "Weak situations provide fewer clear behavioral expectations, allowing individual characteristics to play a larger role."
+},
+
+{
+  chapter: 3,
+  concept: "Personality and Situational Strength",
+  type: "Framework",
+  question:
+    "When should personality differences generally have the strongest influence on behavior?",
+  answers: [
+    "In highly structured situations with strict rules",
+    "In weak situations with fewer clear expectations",
+    "Only when employees are dissatisfied",
+    "Only when cognitive ability is low"
+  ],
+  correct: 1,
+  explanation:
+    "Personal characteristics tend to have more influence when the situation is weak and leaves more room for individual choice."
+},
+
+{
+  chapter: 3,
+  concept: "Trait Activation",
+  type: "Application",
+  question:
+    "An employee's creativity becomes especially visible after being assigned an open-ended product design problem, but is less noticeable when completing standardized compliance forms. Which concept best explains this difference?",
+  answers: [
+    "Trait activation",
+    "Continuance commitment",
+    "Negative affectivity",
+    "Dunning-Kruger effect"
+  ],
+  correct: 0,
+  explanation:
+    "Trait activation occurs when a situation makes a particular personal characteristic more relevant and likely to be expressed."
+},
+
+{
+  chapter: 3,
+  concept: "People Are More Similar Than Different",
+  type: "Application",
+  question:
+    "A manager assumes all members of a younger generation have weaker work ethic and lower commitment. What is the best response based on Chapter 3?",
+  answers: [
+    "Generational labels reliably predict individual work behavior",
+    "Managers should be cautious because research suggests generations are often more similar than different",
+    "Generational membership is more useful than individual assessment",
+    "Age determines job attitudes"
+  ],
+  correct: 1,
+  explanation:
+    "The reading warns against broad generational stereotypes because observed differences are often small and should not replace individual diagnosis."
+},
+
+{
+  chapter: 3,
+  concept: "Personality",
+  type: "Recognition",
+  question:
+    "Which description best matches personality?",
+  answers: [
+    "A temporary emotional reaction to a specific event",
+    "A pattern of relatively enduring ways a person thinks, acts, and behaves",
+    "A person's current job satisfaction",
+    "A learned technical skill"
+  ],
+  correct: 1,
+  explanation:
+    "Personality refers to relatively enduring patterns in how a person thinks, feels, and behaves."
+},
+
+{
+  chapter: 3,
+  concept: "Big Five as Continua",
+  type: "Distinction",
+  question:
+    "A manager says an employee is either an introvert or an extravert with no middle ground. What is wrong with this reasoning?",
+  answers: [
+    "The Big Five treats traits as continua rather than fixed types",
+    "Extraversion is not part of the Big Five",
+    "Personality cannot be measured",
+    "Every person is either fully introverted or fully extraverted"
+  ],
+  correct: 0,
+  explanation:
+    "The Big Five describes dimensions along continua. People can fall anywhere between low and high levels of a trait."
+},
+
+{
+  chapter: 3,
+  concept: "Openness",
+  type: "Application",
+  question:
+    "An employee enjoys novel ideas, experiments with new approaches, and adapts quickly when work changes. Which Big Five trait is most strongly illustrated?",
+  answers: [
+    "Openness",
+    "Conscientiousness",
+    "Agreeableness",
+    "Neuroticism"
+  ],
+  correct: 0,
+  explanation:
+    "Openness is associated with curiosity, imagination, learning, creativity, and receptiveness to new experiences."
+},
+
+{
+  chapter: 3,
+  concept: "Openness and Context",
+  type: "Framework",
+  question:
+    "A highly open employee excels in innovation work but becomes frustrated in a role requiring strict standardization and repetitive procedures. What is the best conclusion?",
+  answers: [
+    "Openness is always beneficial",
+    "The value of a personality trait depends partly on the demands of the situation",
+    "The employee must have low cognitive ability",
+    "The employee should change personality"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture emphasizes that no Big Five trait is universally good or bad; fit and context determine whether a tendency helps or creates friction."
+},
+
+{
+  chapter: 3,
+  concept: "Conscientiousness",
+  type: "Application",
+  question:
+    "An employee is organized, dependable, disciplined, follows through on commitments, and consistently meets deadlines. Which Big Five trait is most evident?",
+  answers: [
+    "Extraversion",
+    "Conscientiousness",
+    "Openness",
+    "Agreeableness"
+  ],
+  correct: 1,
+  explanation:
+    "Conscientiousness reflects organization, dependability, self-discipline, persistence, and follow-through."
+},
+
+{
+  chapter: 3,
+  concept: "Conscientiousness and Performance",
+  type: "Framework",
+  question:
+    "Why is conscientiousness especially important in workplace research?",
+  answers: [
+    "It predicts performance consistently across many occupations",
+    "It guarantees leadership success",
+    "It eliminates the effects of context",
+    "It is the only trait linked to behavior"
+  ],
+  correct: 0,
+  explanation:
+    "Conscientiousness is one of the most consistent Big Five predictors of job performance across many types of work."
+},
+
+{
+  chapter: 3,
+  concept: "Extraversion",
+  type: "Application",
+  question:
+    "An employee is sociable, assertive, energetic, and often takes the lead during group discussions. Which trait is most strongly illustrated?",
+  answers: [
+    "Agreeableness",
+    "Extraversion",
+    "Openness",
+    "Conscientiousness"
+  ],
+  correct: 1,
+  explanation:
+    "Extraversion is associated with sociability, assertiveness, energy, social influence, and leadership emergence."
+},
+
+{
+  chapter: 3,
+  concept: "Introversion and Context",
+  type: "Application",
+  question:
+    "A manager assumes a quieter employee cannot contribute strongly to a team. What should the manager consider?",
+  answers: [
+    "Introversion can support deep listening, focused work, and thoughtful participation",
+    "Introversion always predicts poor team performance",
+    "Extraversion is required for all leadership roles",
+    "Quiet employees should be assigned only individual work"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture emphasizes that lower extraversion can be valuable in contexts that reward listening, reflection, focus, and thoughtful contribution."
+},
+
+{
+  chapter: 3,
+  concept: "Agreeableness",
+  type: "Application",
+  question:
+    "An employee is cooperative, compassionate, trusting, and usually works to maintain harmony with coworkers. Which trait is most evident?",
+  answers: [
+    "Agreeableness",
+    "Neuroticism",
+    "Openness",
+    "Extraversion"
+  ],
+  correct: 0,
+  explanation:
+    "Agreeableness is associated with cooperation, compassion, trust, helping, and lower relationship conflict."
+},
+
+{
+  chapter: 3,
+  concept: "Agreeableness and Context",
+  type: "Framework",
+  question:
+    "A highly agreeable employee is considering a management role that regularly requires confronting poor performance and handling customer complaints. What is the best advice?",
+  answers: [
+    "Do not apply because agreeable people cannot manage",
+    "Recognize that agreeableness may support relationships but could make constructive conflict more difficult, so develop the needed conflict skills",
+    "Become less agreeable permanently",
+    "Ignore personality because it never matters"
+  ],
+  correct: 1,
+  explanation:
+    "Agreeableness can support cooperation, but very high agreeableness may sometimes reduce willingness to engage in necessary disagreement."
+},
+
+{
+  chapter: 3,
+  concept: "Neuroticism and Emotional Stability",
+  type: "Application",
+  question:
+    "An employee tends to worry, reacts strongly to uncertainty, and experiences more distress during organizational change. Which Big Five dimension is most relevant?",
+  answers: [
+    "Openness",
+    "Conscientiousness",
+    "Neuroticism",
+    "Agreeableness"
+  ],
+  correct: 2,
+  explanation:
+    "Higher neuroticism is associated with stronger negative emotional reactions to stress and lower emotional stability."
+},
+
+{
+  chapter: 3,
+  concept: "Personality Is Not Destiny",
+  type: "Framework",
+  question:
+    "A manager learns that an employee scores lower on extraversion. Which conclusion is most appropriate?",
+  answers: [
+    "The employee cannot succeed in client-facing work",
+    "The trait may suggest a tendency, but skills, experience, and context also shape performance",
+    "The employee should be excluded from leadership development",
+    "The personality score determines future behavior"
+  ],
+  correct: 1,
+  explanation:
+    "Personality influences tendencies, but it does not determine behavior or job success by itself."
+},
+
+{
+  chapter: 3,
+  concept: "Dark Triad",
+  type: "Recognition",
+  question:
+    "Which three traits make up the dark triad?",
+  answers: [
+    "Narcissism, psychopathy, and Machiavellianism",
+    "Extraversion, openness, and agreeableness",
+    "Self-esteem, locus of control, and emotional stability",
+    "Positive affectivity, negative affectivity, and mood"
+  ],
+  correct: 0,
+  explanation:
+    "The dark triad consists of narcissism, psychopathy, and Machiavellianism."
+},
+
+{
+  chapter: 3,
+  concept: "Narcissism",
+  type: "Recognition",
+  question:
+    "A manager constantly self-promotes, seeks admiration, and expects others to recognize his superiority. Which dark triad trait is most directly illustrated?",
+  answers: [
+    "Psychopathy",
+    "Narcissism",
+    "Machiavellianism",
+    "Conscientiousness"
+  ],
+  correct: 1,
+  explanation:
+    "Narcissism is characterized by self-promotion and a strong need for admiration or adulation."
+},
+
+{
+  chapter: 3,
+  concept: "Psychopathy",
+  type: "Recognition",
+  question:
+    "An employee repeatedly harms coworkers and shows little guilt, remorse, or concern for their feelings. Which trait is most directly illustrated?",
+  answers: [
+    "Psychopathy",
+    "Agreeableness",
+    "Openness",
+    "Normative commitment"
+  ],
+  correct: 0,
+  explanation:
+    "Psychopathy involves low concern for others and little guilt or remorse when one's actions harm people."
+},
+
+{
+  chapter: 3,
+  concept: "Machiavellianism",
+  type: "Recognition",
+  question:
+    "An employee believes manipulation and deception are acceptable if they help achieve personal goals. Which trait is most directly illustrated?",
+  answers: [
+    "Machiavellianism",
+    "Extraversion",
+    "Positive affectivity",
+    "Self-efficacy"
+  ],
+  correct: 0,
+  explanation:
+    "Machiavellianism involves valuing manipulation, deceit, and exploitation as tools for achieving goals."
+},
+
+{
+  chapter: 3,
+  concept: "Dark Triad and Outcomes",
+  type: "Framework",
+  question:
+    "A manager learns that an employee shows some dark triad tendencies but is also producing strong results. What is the best conclusion?",
+  answers: [
+    "Strong performance means the traits are harmless",
+    "Some dark traits may coexist with career success, but they can also create interpersonal and ethical risks",
+    "Dark triad traits always lead to failure",
+    "Personality should be ignored when performance is strong"
+  ],
+  correct: 1,
+  explanation:
+    "The reading notes that some dark traits may be associated with getting ahead, but they also relate to interpersonal problems, CWB, and poor well-being."
+},
+
+{
+  chapter: 3,
+  concept: "Integrity Tests",
+  type: "Application",
+  question:
+    "An organization wants one additional source of evidence for predicting theft and other deviant behavior during hiring. Which tool is most directly relevant?",
+  answers: [
+    "Integrity test",
+    "Job satisfaction survey",
+    "Work values inventory",
+    "Team scorecard"
+  ],
+  correct: 0,
+  explanation:
+    "Integrity tests are designed to help predict theft and other counterproductive behavior, though they should be used as one piece of evidence among others."
+},
+
+{
+  chapter: 3,
+  concept: "Core Self-Evaluations",
+  type: "Framework",
+  question:
+    "Which combination makes up core self-evaluations?",
+  answers: [
+    "Self-esteem, generalized self-efficacy, locus of control, and emotional stability",
+    "Openness, conscientiousness, extraversion, and agreeableness",
+    "Job satisfaction, commitment, cynicism, and engagement",
+    "Emotion perception, understanding, regulation, and use"
+  ],
+  correct: 0,
+  explanation:
+    "Core self-evaluations combine self-esteem, generalized self-efficacy, locus of control, and emotional stability."
+},
+
+{
+  chapter: 3,
+  concept: "Self-Esteem",
+  type: "Recognition",
+  question:
+    "Which part of core self-evaluations refers to the general value a person places on themselves?",
+  answers: [
+    "Self-esteem",
+    "Locus of control",
+    "Generalized self-efficacy",
+    "Emotional stability"
+  ],
+  correct: 0,
+  explanation:
+    "Self-esteem refers to the general value or worth a person ascribes to themselves."
+},
+
+{
+  chapter: 3,
+  concept: "Locus of Control",
+  type: "Recognition",
+  question:
+    "An employee believes that personal effort and decisions strongly influence what happens in life. Which core self-evaluation component is most relevant?",
+  answers: [
+    "Locus of control",
+    "Negative affectivity",
+    "Affective commitment",
+    "Openness"
+  ],
+  correct: 0,
+  explanation:
+    "Locus of control concerns how much control people believe they have over events and outcomes."
+},
+
+{
+  chapter: 3,
+  concept: "CSE vs Self-Efficacy",
+  type: "Distinction",
+  question:
+    "An employee generally feels capable and in control but is unsure whether she can successfully conduct a complex negotiation tomorrow. Which concept best describes the uncertainty about this particular task?",
+  answers: [
+    "Core self-evaluation",
+    "Task-specific self-efficacy",
+    "Job satisfaction",
+    "Positive affectivity"
+  ],
+  correct: 1,
+  explanation:
+    "Core self-evaluations are broad, while self-efficacy can refer specifically to confidence in performing a particular task."
+},
+
+{
+  chapter: 3,
+  concept: "Emotion",
+  type: "Recognition",
+  question:
+    "After receiving unexpected criticism, an employee experiences an intense burst of anger that fades relatively quickly. What is this best classified as?",
+  answers: [
+    "Emotion",
+    "Mood",
+    "Personality",
+    "Work value"
+  ],
+  correct: 0,
+  explanation:
+    "Emotions are relatively short-lived, intense reactions to specific events or situations."
+},
+
+{
+  chapter: 3,
+  concept: "Mood",
+  type: "Recognition",
+  question:
+    "An employee feels generally irritable and negative throughout the day even though there is no single clear triggering event. What is this best classified as?",
+  answers: [
+    "Emotion",
+    "Mood",
+    "Self-efficacy",
+    "Trait activation"
+  ],
+  correct: 1,
+  explanation:
+    "Moods are generally longer lasting, less intense, and may not be tied to one specific event."
+},
+
+{
+  chapter: 3,
+  concept: "Positive Affectivity",
+  type: "Application",
+  question:
+    "An employee is generally enthusiastic, energetic, and positively engaged with the environment. Which concept best fits?",
+  answers: [
+    "Positive affectivity",
+    "Negative affectivity",
+    "Normative commitment",
+    "Machiavellianism"
+  ],
+  correct: 0,
+  explanation:
+    "Positive affectivity refers to a generally pleasurable and engaged mood state."
+},
+
+{
+  chapter: 3,
+  concept: "Negative Affectivity",
+  type: "Application",
+  question:
+    "An employee frequently experiences nervousness, sadness, and unpleasant engagement with the work environment. Which concept best fits?",
+  answers: [
+    "Positive affectivity",
+    "Negative affectivity",
+    "Affective commitment",
+    "Self-awareness"
+  ],
+  correct: 1,
+  explanation:
+    "Negative affectivity is characterized by distress and unpleasant engagement with the environment."
+},
+
+{
+  chapter: 3,
+  concept: "Mood and Workplace Behavior",
+  type: "Framework",
+  question:
+    "Why should managers care about employees' general mood states?",
+  answers: [
+    "Mood has no relationship to workplace behavior",
+    "Positive and negative affectivity can influence creativity, cooperation, conflict, stress, and performance",
+    "Mood completely determines performance",
+    "Only personality affects workplace outcomes"
+  ],
+  correct: 1,
+  explanation:
+    "The reading links positive affectivity with outcomes such as creativity and cooperation and negative affectivity with conflict, CWB, and weaker performance."
+},
+
+{
+  chapter: 3,
+  concept: "Mood Repair",
+  type: "Application",
+  question:
+    "An employee notices a persistent negative mood and deliberately uses a healthy activity known to improve her emotional state before returning to a difficult task. Which concept is illustrated?",
+  answers: [
+    "Mood repair",
+    "Trait activation",
+    "Continuance commitment",
+    "Job analysis"
+  ],
+  correct: 0,
+  explanation:
+    "Mood repair refers to deliberately shifting a negative mood toward a more positive state."
+},
+
+{
+  chapter: 3,
+  concept: "Ability vs Skill",
+  type: "Distinction",
+  question:
+    "Which statement best distinguishes an ability from a skill?",
+  answers: [
+    "Ability is an underlying capacity, while skill is a learned behavior developed through practice",
+    "Ability and skill mean exactly the same thing",
+    "Skill is stable while ability is always learned",
+    "Ability refers only to personality"
+  ],
+  correct: 0,
+  explanation:
+    "Abilities are capacities that enable performance, while skills are learned behaviors that can be developed through training and practice."
+},
+
+{
+  chapter: 3,
+  concept: "Cognitive Ability",
+  type: "Application",
+  question:
+    "An employee quickly learns complex material, reasons through unfamiliar problems, and understands difficult information. Which individual difference is most directly illustrated?",
+  answers: [
+    "Cognitive ability",
+    "Agreeableness",
+    "Normative commitment",
+    "Negative affectivity"
+  ],
+  correct: 0,
+  explanation:
+    "Cognitive ability refers to learning, reasoning, problem solving, verbal comprehension, quantitative reasoning, and related mental processing."
+},
+
+{
+  chapter: 3,
+  concept: "Cognitive Ability and Job Complexity",
+  type: "Framework",
+  question:
+    "When does cognitive ability generally become especially important for job performance?",
+  answers: [
+    "When jobs require more complex information processing and learning",
+    "Only when jobs involve physical labor",
+    "Only when personality scores are low",
+    "When jobs contain no decision making"
+  ],
+  correct: 0,
+  explanation:
+    "The more complex the information-processing demands of a job, the more important cognitive ability tends to become."
+},
+
+{
+  chapter: 3,
+  concept: "Cognitive Ability and Evidence",
+  type: "Application",
+  question:
+    "A professional sports league uses a cognitive ability test even though evidence shows the score does not predict on-field performance well. What is the best managerial lesson?",
+  answers: [
+    "A predictor should be retained if it is traditional",
+    "Even generally useful measures should be validated for the specific outcome and context",
+    "Cognitive ability never predicts job performance",
+    "Testing should replace performance evidence"
+  ],
+  correct: 1,
+  explanation:
+    "The reading uses the NFL example to show that a generally powerful predictor may still have limited value for a particular performance outcome."
+},
+
+{
+  chapter: 3,
+  concept: "Emotional Intelligence",
+  type: "Recognition",
+  question:
+    "Which description best matches emotional intelligence?",
+  answers: [
+    "The ability to identify, understand, manage, and use emotions effectively",
+    "A fixed personality type",
+    "General mathematical reasoning ability",
+    "The desire to remain with an organization"
+  ],
+  correct: 0,
+  explanation:
+    "Emotional intelligence concerns recognizing and managing emotions in oneself and others and using emotional information effectively."
+},
+
+{
+  chapter: 3,
+  concept: "Self-Awareness in EI",
+  type: "Application",
+  question:
+    "A manager notices that frustration is rising during a meeting and recognizes that it may distort his judgment. Which emotional intelligence capability is most directly demonstrated?",
+  answers: [
+    "Self-awareness",
+    "Self-management",
+    "Other-awareness",
+    "Other-management"
+  ],
+  correct: 0,
+  explanation:
+    "Self-awareness means recognizing one's own emotions, triggers, and behavioral tendencies."
+},
+
+{
+  chapter: 3,
+  concept: "Self-Management in EI",
+  type: "Application",
+  question:
+    "A manager feels angry during a conflict but pauses, labels the emotion, and chooses a calm response instead of reacting automatically. Which capability is most directly demonstrated?",
+  answers: [
+    "Self-awareness",
+    "Self-management",
+    "Other-awareness",
+    "Use of emotion"
+  ],
+  correct: 1,
+  explanation:
+    "Self-management involves regulating one's own emotional response and choosing intentional behavior."
+},
+
+{
+  chapter: 3,
+  concept: "Other-Awareness in EI",
+  type: "Application",
+  question:
+    "A supervisor notices an employee's tone and body language have changed, asks what is happening, listens carefully, and verifies the employee's perspective. Which capability is most directly demonstrated?",
+  answers: [
+    "Self-management",
+    "Other-awareness",
+    "Use of emotion",
+    "Generalized self-efficacy"
+  ],
+  correct: 1,
+  explanation:
+    "Other-awareness involves recognizing emotional cues and genuinely considering another person's perspective."
+},
+
+{
+  chapter: 3,
+  concept: "Other-Management in EI",
+  type: "Application",
+  question:
+    "A manager changes the timing and tone of a difficult conversation, listens carefully, validates concerns, and works toward shared goals. Which capability is most directly demonstrated?",
+  answers: [
+    "Other-management",
+    "Self-esteem",
+    "Cognitive ability",
+    "Negative affectivity"
+  ],
+  correct: 0,
+  explanation:
+    "Other-management uses communication and relationship skills to make interactions more constructive."
+},
+
+{
+  chapter: 3,
+  concept: "Use of Emotion",
+  type: "Application",
+  question:
+    "An employee channels frustration after a setback into renewed focus, persistence, and creative problem solving. Which emotional intelligence capability is most directly illustrated?",
+  answers: [
+    "Use of emotion",
+    "Continuance commitment",
+    "Trait activation",
+    "Organizational cynicism"
+  ],
+  correct: 0,
+  explanation:
+    "Use of emotion involves directing emotional energy toward motivation, creativity, persistence, and productive action."
+},
+
+{
+  chapter: 3,
+  concept: "Personality vs Emotional Intelligence",
+  type: "Distinction",
+  question:
+    "Which statement best distinguishes personality from emotional intelligence?",
+  answers: [
+    "Personality reflects broad tendencies, while emotional intelligence reflects capabilities that can be developed more directly",
+    "Emotional intelligence is fixed while personality changes quickly",
+    "They are the same construct",
+    "Personality concerns emotion while emotional intelligence concerns only reasoning"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture describes personality as relatively stable tendencies and emotional intelligence as more directly developable capabilities for recognizing, managing, and using emotion."
+},
+
+{
+  chapter: 3,
+  concept: "Developing Emotional Intelligence",
+  type: "Framework",
+  question:
+    "A manager wants to improve self-management under pressure. Which approach best fits the lecture's evidence-based recommendation?",
+  answers: [
+    "Create an implementation intention such as, 'If I feel angry, then I will pause before responding'",
+    "Suppress all emotion permanently",
+    "Avoid feedback",
+    "Rely only on personality testing"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture recommends implementation intentions as a way to pre-plan constructive responses to emotional triggers."
+},
+
+{
+  chapter: 3,
+  concept: "Work Values",
+  type: "Recognition",
+  question:
+    "Which description best matches work values?",
+  answers: [
+    "The outcomes and conditions people want their work to provide",
+    "Temporary emotional reactions",
+    "Measures of cognitive ability",
+    "Fixed personality types"
+  ],
+  correct: 0,
+  explanation:
+    "Work values are enduring beliefs about the outcomes and conditions people want from work."
+},
+
+{
+  chapter: 3,
+  concept: "Achievement Work Value",
+  type: "Application",
+  question:
+    "An employee is most motivated by accomplishing difficult goals and using personal abilities fully. Which work value is strongest?",
+  answers: [
+    "Achievement",
+    "Relationships",
+    "Support",
+    "Working conditions"
+  ],
+  correct: 0,
+  explanation:
+    "Achievement reflects accomplishment and the opportunity to use one's abilities."
+},
+
+{
+  chapter: 3,
+  concept: "Independence Work Value",
+  type: "Application",
+  question:
+    "An employee strongly prefers autonomy, decision latitude, and control over how work is performed. Which work value is strongest?",
+  answers: [
+    "Recognition",
+    "Independence",
+    "Relationships",
+    "Support"
+  ],
+  correct: 1,
+  explanation:
+    "Independence reflects a preference for autonomy, choice, and decision latitude."
+},
+
+{
+  chapter: 3,
+  concept: "Recognition Work Value",
+  type: "Application",
+  question:
+    "An employee places high importance on advancement, status, and acknowledgment for contributions. Which work value is strongest?",
+  answers: [
+    "Recognition",
+    "Support",
+    "Working conditions",
+    "Relationships"
+  ],
+  correct: 0,
+  explanation:
+    "Recognition concerns advancement, status, and acknowledgment."
+},
+
+{
+  chapter: 3,
+  concept: "Relationships Work Value",
+  type: "Application",
+  question:
+    "An employee places high importance on belonging, service, cooperation, and positive connections with others. Which work value is strongest?",
+  answers: [
+    "Relationships",
+    "Achievement",
+    "Recognition",
+    "Working conditions"
+  ],
+  correct: 0,
+  explanation:
+    "Relationships reflect a desire for belonging, service, and positive interpersonal connections."
+},
+
+{
+  chapter: 3,
+  concept: "Support Work Value",
+  type: "Application",
+  question:
+    "An employee most values fair treatment and supportive leadership. Which work value is strongest?",
+  answers: [
+    "Achievement",
+    "Support",
+    "Independence",
+    "Recognition"
+  ],
+  correct: 1,
+  explanation:
+    "Support reflects a preference for fair and supportive leadership."
+},
+
+{
+  chapter: 3,
+  concept: "Working Conditions Work Value",
+  type: "Application",
+  question:
+    "An employee places high importance on compensation, security, variety, and a desirable physical work environment. Which work value is strongest?",
+  answers: [
+    "Relationships",
+    "Working conditions",
+    "Achievement",
+    "Independence"
+  ],
+  correct: 1,
+  explanation:
+    "Working conditions include security, compensation, variety, and desirable environmental conditions."
+},
+
+{
+  chapter: 3,
+  concept: "Values and Motivation",
+  type: "Framework",
+  question:
+    "A manager learns that an employee may value independence. What should the manager do before assuming that more autonomy will motivate the employee?",
+  answers: [
+    "Immediately redesign the job",
+    "Verify the employee's actual preferences through conversation",
+    "Assume everyone with the same value wants identical treatment",
+    "Ignore the value information completely"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture emphasizes using values to form hypotheses and checking them rather than assuming a particular intervention will work."
+},
+
+{
+  chapter: 3,
+  concept: "Employee Insight Dashboard",
+  type: "Framework",
+  question:
+    "A manager reviews an employee's Big Five tendencies, emotional intelligence capabilities, and work values. What is the best use of this information?",
+  answers: [
+    "Create motivation hypotheses and verify them through conversation",
+    "Make a permanent judgment about the employee",
+    "Use the information as the sole basis for hiring",
+    "Use it to rank employees publicly"
+  ],
+  correct: 0,
+  explanation:
+    "The Employee Insight Dashboard is intended for development and individualized consideration, not fixed labeling or high-stakes decisions."
+},
+
+{
+  chapter: 3,
+  concept: "Employee Insight Dashboard Ethics",
+  type: "Application",
+  question:
+    "Which use of an Employee Insight Dashboard best fits the lecture?",
+  answers: [
+    "Use voluntarily collected, confidential information to personalize support and communication",
+    "Use it secretly to exclude employees from opportunities",
+    "Use it as the sole basis for performance ratings",
+    "Use it to assign permanent personality labels"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture recommends voluntary, confidential developmental use rather than hiring, grading, exclusion, or fixed labeling."
+},
+
+{
+  chapter: 3,
+  concept: "Job Attitudes",
+  type: "Recognition",
+  question:
+    "What are job attitudes?",
+  answers: [
+    "Employees' evaluations and beliefs about their jobs and work experiences",
+    "Stable cognitive abilities",
+    "Core personality traits",
+    "Only observable work behaviors"
+  ],
+  correct: 0,
+  explanation:
+    "Job attitudes are evaluations or appraisals of the job, including feelings, beliefs, and attachment."
+},
+
+{
+  chapter: 3,
+  concept: "Attitudes as Early-Warning Signals",
+  type: "Framework",
+  question:
+    "Employee satisfaction and commitment begin declining before turnover increases. How should a manager interpret this?",
+  answers: [
+    "Attitudes can serve as early-warning signals but are not perfect predictions of behavior",
+    "Every dissatisfied employee will quit",
+    "Attitudes should be ignored until turnover occurs",
+    "Low commitment always causes poor performance"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture describes attitudes as warning signals that may precede disengagement and turnover, while emphasizing that context still matters."
+},
+
+{
+  chapter: 3,
+  concept: "Job Satisfaction",
+  type: "Recognition",
+  question:
+    "Which concept refers to a person's overall evaluation of their job and work experience?",
+  answers: [
+    "Job satisfaction",
+    "Affective commitment",
+    "Organizational cynicism",
+    "Self-efficacy"
+  ],
+  correct: 0,
+  explanation:
+    "Job satisfaction is a broad evaluation of one's job and its different aspects."
+},
+
+{
+  chapter: 3,
+  concept: "Job Satisfaction Facets",
+  type: "Framework",
+  question:
+    "An employee reports low overall satisfaction. What should a manager examine next to diagnose the source?",
+  answers: [
+    "Specific facets such as work itself, supervision, coworkers, pay, and promotion",
+    "Only personality",
+    "Only performance ratings",
+    "Only salary"
+  ],
+  correct: 0,
+  explanation:
+    "Facet-level satisfaction helps managers identify where dissatisfaction is actually located."
+},
+
+{
+  chapter: 3,
+  concept: "Satisfaction and Performance",
+  type: "Application",
+  question:
+    "A manager assumes that making employees happier will automatically produce high performance. What does the reading suggest?",
+  answers: [
+    "Job satisfaction and performance are related, but the relationship is not automatic or simple",
+    "Satisfaction always causes high performance",
+    "Satisfaction never matters",
+    "Performance always causes satisfaction"
+  ],
+  correct: 0,
+  explanation:
+    "The reading describes the satisfaction-performance relationship as meaningful but moderate and influenced by job complexity and other factors."
+},
+
+{
+  chapter: 3,
+  concept: "Affective Commitment",
+  type: "Application",
+  question:
+    "An employee says, 'I stay because I genuinely feel connected to this organization and want to be here.' Which form of commitment is this?",
+  answers: [
+    "Affective commitment",
+    "Normative commitment",
+    "Continuance commitment",
+    "Organizational cynicism"
+  ],
+  correct: 0,
+  explanation:
+    "Affective commitment means wanting to stay because of emotional attachment and identification with the organization."
+},
+
+{
+  chapter: 3,
+  concept: "Normative Commitment",
+  type: "Application",
+  question:
+    "An employee says, 'My manager gave me an opportunity when no one else would, so I feel I owe the organization loyalty.' Which form of commitment is this?",
+  answers: [
+    "Affective commitment",
+    "Normative commitment",
+    "Continuance commitment",
+    "Job satisfaction"
+  ],
+  correct: 1,
+  explanation:
+    "Normative commitment means feeling an obligation or moral responsibility to remain."
+},
+
+{
+  chapter: 3,
+  concept: "Continuance Commitment",
+  type: "Application",
+  question:
+    "An employee says, 'I would leave, but I would lose valuable benefits and have few good alternatives.' Which form of commitment is this?",
+  answers: [
+    "Affective commitment",
+    "Normative commitment",
+    "Continuance commitment",
+    "Positive affectivity"
+  ],
+  correct: 2,
+  explanation:
+    "Continuance commitment means staying because the perceived costs of leaving are high."
+},
+
+{
+  chapter: 3,
+  concept: "Low Turnover Is Not Always Healthy",
+  type: "Framework",
+  question:
+    "A company has extremely low turnover. Why should managers avoid automatically concluding that employees are highly committed?",
+  answers: [
+    "Some employees may stay because they feel trapped by high costs of leaving",
+    "Low turnover always means high affective commitment",
+    "Continuance commitment guarantees strong performance",
+    "Turnover and commitment are unrelated"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture warns that employees may remain because they want to, ought to, or feel they need to. Those reasons have different implications."
+},
+
+{
+  chapter: 3,
+  concept: "Organizational Cynicism",
+  type: "Recognition",
+  question:
+    "An employee expresses persistent contempt, frustration, and distrust toward management and assumes every new initiative will fail. Which attitude is most directly illustrated?",
+  answers: [
+    "Healthy skepticism",
+    "Organizational cynicism",
+    "Affective commitment",
+    "Positive affectivity"
+  ],
+  correct: 1,
+  explanation:
+    "Organizational cynicism involves deep distrust, frustration, and loss of faith in management or the organization."
+},
+
+{
+  chapter: 3,
+  concept: "Cynicism vs Healthy Skepticism",
+  type: "Distinction",
+  question:
+    "Which behavior best reflects healthy skepticism rather than organizational cynicism?",
+  answers: [
+    "Questioning a proposal to improve the decision while remaining open to evidence",
+    "Rejecting every proposal because management cannot be trusted",
+    "Assuming all organizational change is dishonest",
+    "Refusing to participate because previous efforts failed"
+  ],
+  correct: 0,
+  explanation:
+    "Healthy skepticism questions ideas constructively, while cynicism reflects a deeper loss of trust and confidence."
+},
+
+{
+  chapter: 3,
+  concept: "Managing Organizational Cynicism",
+  type: "Framework",
+  question:
+    "A team has become cynical after several failed change efforts and broken promises. What should a new manager do first?",
+  answers: [
+    "Blame employees for having bad attitudes",
+    "Acknowledge past failures, rebuild credibility, communicate honestly, and avoid promises that cannot be kept",
+    "Ignore the past and focus only on future goals",
+    "Remove cynical employees from the team"
+  ],
+  correct: 1,
+  explanation:
+    "The reading emphasizes that cynicism often grows from past organizational experiences, so rebuilding trust begins with credibility, honesty, and acknowledgment of past failures."
+},
+
+{
+  chapter: 3,
+  concept: "Self-Awareness",
+  type: "Recognition",
+  question:
+    "Which description best matches self-awareness?",
+  answers: [
+    "Accurately assessing one's own behaviors and skills in the workplace",
+    "Feeling confident in every situation",
+    "Knowing only one's personality type",
+    "Avoiding external feedback"
+  ],
+  correct: 0,
+  explanation:
+    "Self-awareness involves accurately understanding one's own behavior, capabilities, strengths, and limitations."
+},
+
+{
+  chapter: 3,
+  concept: "Limits of Self-Assessment",
+  type: "Application",
+  question:
+    "A manager believes she is an excellent communicator, but coworkers consistently rate her communication as unclear. What does Chapter 3 suggest?",
+  answers: [
+    "Self-perceptions should be compared with meaningful external evidence",
+    "The manager's self-rating should always be trusted",
+    "Coworker feedback is irrelevant",
+    "Self-awareness requires no external information"
+  ],
+  correct: 0,
+  explanation:
+    "Self-awareness improves when personal beliefs are compared with external and objective feedback."
+},
+
+{
+  chapter: 3,
+  concept: "Dunning-Kruger Effect",
+  type: "Application",
+  question:
+    "An employee with very low skill dramatically overestimates his competence because he lacks enough expertise to recognize his own mistakes. Which concept best explains this?",
+  answers: [
+    "Dunning-Kruger effect",
+    "Barnum effect",
+    "Trait activation",
+    "Continuance commitment"
+  ],
+  correct: 0,
+  explanation:
+    "The Dunning-Kruger effect describes how low-skill individuals may substantially overestimate their ability."
+},
+
+{
+  chapter: 3,
+  concept: "Barnum Effect",
+  type: "Application",
+  question:
+    "An employee accepts a vague personality description as highly accurate because it sounds positive and personally meaningful, even though it could apply to many people. Which concept best fits?",
+  answers: [
+    "Barnum effect",
+    "Trait activation",
+    "Positive affectivity",
+    "Self-efficacy"
+  ],
+  correct: 0,
+  explanation:
+    "The Barnum effect occurs when people accept broad personality descriptions as personally accurate even when the descriptions are not strongly diagnostic."
+},
+
+{
+  chapter: 3,
+  concept: "MBTI and Self-Awareness",
+  type: "Application",
+  question:
+    "A manager wants to use a popular personality type test as the sole basis for assigning employees to jobs. What is the best Chapter 3 response?",
+  answers: [
+    "Use caution because popularity does not establish usefulness, and type labels may not predict important work outcomes",
+    "Use it because popular tools are automatically valid",
+    "Use it because personality types determine job success",
+    "Ignore all personality assessment"
+  ],
+  correct: 0,
+  explanation:
+    "The reading cautions against relying heavily on popular type-based tools that lack strong evidence for predicting important workplace outcomes."
+},
+
+{
+  chapter: 3,
+  concept: "Feedback and Self-Awareness",
+  type: "Framework",
+  question:
+    "What is the strongest way to improve professional self-awareness?",
+  answers: [
+    "Rely entirely on introspection",
+    "Seek meaningful external feedback from multiple credible sources",
+    "Avoid uncomfortable feedback",
+    "Take one personality quiz and treat the result as permanent"
+  ],
+  correct: 1,
+  explanation:
+    "The reading emphasizes meaningful external feedback, including multi-rater feedback, as one of the strongest tools for improving self-awareness."
+},
+
+{
+  chapter: 3,
+  concept: "360-Degree Feedback",
+  type: "Application",
+  question:
+    "A manager receives structured feedback from a supervisor, coworkers, direct reports, and customers. What kind of approach is this?",
+  answers: [
+    "360-degree or multi-rater feedback",
+    "Trait activation",
+    "Core self-evaluation",
+    "Job analysis"
+  ],
+  correct: 0,
+  explanation:
+    "Multi-rater or 360-degree feedback combines several perspectives to provide a more complete view of how others experience a person's behavior."
+},
+
+{
+  chapter: 3,
+  concept: "Self-Awareness as a Process",
+  type: "Framework",
+  question:
+    "A manager receives extensive developmental feedback. What is the best next step?",
+  answers: [
+    "Try to change every weakness immediately",
+    "Focus on one meaningful gap, practice, gather more feedback, and continue the process over time",
+    "Ignore the feedback if it conflicts with self-perception",
+    "Treat the assessment as a final judgment"
+  ],
+  correct: 1,
+  explanation:
+    "The reading emphasizes that self-awareness is an ongoing process and that development is usually more effective when people focus on one important area at a time."
+},
+
+{
+  chapter: 3,
+  concept: "Integrated Individual Differences",
+  type: "Framework",
+  question:
+    "A highly open, capable employee becomes frustrated after being assigned a rigid, highly standardized role. What is the best managerial interpretation?",
+  answers: [
+    "The employee has a bad personality",
+    "The manager should consider personality, job demands, situation strength, abilities, and work values together",
+    "Openness always causes poor performance",
+    "The employee should be replaced immediately"
+  ],
+  correct: 1,
+  explanation:
+    "Chapter 3 emphasizes diagnosing the whole person-situation relationship rather than treating one trait as the sole explanation."
+},
+
+{
+  chapter: 3,
+  concept: "Integrated Chapter 3 Diagnosis",
+  type: "Framework",
+  question:
+    "An employee's motivation and performance decline after a role change. The manager knows the employee is capable but has not investigated personality fit, emotional reactions, work values, job attitudes, or situational demands. What should the manager do next?",
+  answers: [
+    "Assume the employee has lost work ethic",
+    "Use individual-difference information to form hypotheses, verify them with evidence and conversation, then adapt support or leadership",
+    "Assign a personality label and make a final decision",
+    "Increase monitoring immediately"
+  ],
+  correct: 1,
+  explanation:
+    "The Chapter 3 philosophy is to use individual differences as diagnostic information, not fixed labels, and to verify hypotheses before taking action."
+},
+  // ======================================================
+// CHAPTER 4
+// WORKPLACE STRESS
+// ======================================================
+
+{
+  chapter: 4,
+  concept: "Stress",
+  type: "Recognition",
+  question:
+    "Which description best matches stress in an organizational context?",
+  answers: [
+    "A feeling of emotional or physical tension that can affect health, behavior, and performance",
+    "Any difficult task assigned at work",
+    "A permanent personality trait",
+    "Only a negative emotional state"
+  ],
+  correct: 0,
+  explanation:
+    "Stress involves emotional or physical tension and can influence health, behavior, judgment, and performance."
+},
+
+{
+  chapter: 4,
+  concept: "Stress and Performance",
+  type: "Framework",
+  question:
+    "An employee performs poorly when completely unstimulated, improves under moderate pressure, but begins making mistakes under extreme pressure. Which principle best explains this pattern?",
+  answers: [
+    "All stress reduces performance",
+    "Performance can improve with moderate stress but decline when stress becomes too low or too high",
+    "Only challenge stressors affect performance",
+    "Stress and performance are unrelated"
+  ],
+  correct: 1,
+  explanation:
+    "The stress-performance relationship is often curvilinear: too little stress can reduce activation, while too much can impair performance."
+},
+
+{
+  chapter: 4,
+  concept: "Eustress",
+  type: "Recognition",
+  question:
+    "A difficult but manageable deadline energizes an employee, sharpens focus, and increases motivation. Which concept best fits?",
+  answers: [
+    "Strain",
+    "Eustress",
+    "Role conflict",
+    "Psychological withdrawal"
+  ],
+  correct: 1,
+  explanation:
+    "Eustress is productive or beneficial stress that can increase motivation and performance."
+},
+
+{
+  chapter: 4,
+  concept: "Strain",
+  type: "Recognition",
+  question:
+    "After months of sustained pressure, an employee experiences exhaustion, poor sleep, and declining concentration. Which concept best describes the response?",
+  answers: [
+    "Strain",
+    "Eustress",
+    "Challenge appraisal",
+    "Work engagement"
+  ],
+  correct: 0,
+  explanation:
+    "Strain is the negative response that occurs when personal resources become depleted under stress."
+},
+
+{
+  chapter: 4,
+  concept: "Stress Mindset",
+  type: "Application",
+  question:
+    "Two employees face the same demanding assignment. One views stress only as harmful, while the other views the stress response as potentially useful energy that can be managed. What Chapter 4 concept best explains the difference?",
+  answers: [
+    "Stress mindset",
+    "Role ambiguity",
+    "Continuance commitment",
+    "Task performance"
+  ],
+  correct: 0,
+  explanation:
+    "Stress mindset concerns how people interpret stress itself. Reframing stress can change how people respond without denying that harmful demands still exist."
+},
+
+{
+  chapter: 4,
+  concept: "Stress Reappraisal",
+  type: "Application",
+  question:
+    "An employee feels nervous before an important presentation and reframes the physical arousal as energy that can help focus attention. What is the employee doing?",
+  answers: [
+    "Avoiding the stressor",
+    "Reappraising the stress response",
+    "Increasing role ambiguity",
+    "Engaging in withdrawal"
+  ],
+  correct: 1,
+  explanation:
+    "Stress reappraisal involves interpreting the stress response in a more workable and potentially useful way."
+},
+
+{
+  chapter: 4,
+  concept: "Challenge Stressor",
+  type: "Distinction",
+  question:
+    "An employee takes on a demanding new project that requires learning new skills and could lead to advancement. Which type of stressor is most directly illustrated?",
+  answers: [
+    "Challenge stressor",
+    "Hindrance stressor",
+    "Role ambiguity",
+    "Daily hassle"
+  ],
+  correct: 0,
+  explanation:
+    "Challenge stressors are demands that may produce strain but also provide opportunities for growth, learning, and achievement."
+},
+
+{
+  chapter: 4,
+  concept: "Hindrance Stressor",
+  type: "Distinction",
+  question:
+    "An employee must complete unnecessary approval steps that delay work without adding value. Which type of stressor is most directly illustrated?",
+  answers: [
+    "Challenge stressor",
+    "Hindrance stressor",
+    "Eustress",
+    "Social support"
+  ],
+  correct: 1,
+  explanation:
+    "Hindrance stressors are demands or barriers that interfere with goal attainment and development."
+},
+
+{
+  chapter: 4,
+  concept: "Role Ambiguity",
+  type: "Recognition",
+  question:
+    "An employee does not know which tasks are most important, who has final authority, or how performance will be evaluated. Which stressor is this?",
+  answers: [
+    "Role conflict",
+    "Role overload",
+    "Role ambiguity",
+    "Challenge stress"
+  ],
+  correct: 2,
+  explanation:
+    "Role ambiguity occurs when expectations, responsibilities, or standards are unclear."
+},
+
+{
+  chapter: 4,
+  concept: "Role Conflict",
+  type: "Recognition",
+  question:
+    "One manager tells an employee to prioritize speed, while another requires extra review that slows the work. Which stressor is most directly illustrated?",
+  answers: [
+    "Role ambiguity",
+    "Role conflict",
+    "Role overload",
+    "Work engagement"
+  ],
+  correct: 1,
+  explanation:
+    "Role conflict occurs when an employee faces incompatible or competing expectations."
+},
+
+{
+  chapter: 4,
+  concept: "Role Overload",
+  type: "Recognition",
+  question:
+    "An employee understands the job clearly but has more work than can reasonably be completed with available time and resources. Which stressor best fits?",
+  answers: [
+    "Role ambiguity",
+    "Role conflict",
+    "Role overload",
+    "Positive affectivity"
+  ],
+  correct: 2,
+  explanation:
+    "Role overload occurs when demands exceed available time, resources, or capability."
+},
+
+{
+  chapter: 4,
+  concept: "Daily Hassles",
+  type: "Application",
+  question:
+    "An employee experiences dozens of small interruptions, software issues, scheduling conflicts, and minor delays throughout the day. Which stressor category best fits?",
+  answers: [
+    "Daily hassles",
+    "Challenge stressors",
+    "Turnover shocks",
+    "Affective commitment"
+  ],
+  correct: 0,
+  explanation:
+    "Daily hassles are small but frequent demands that create friction and can accumulate into substantial stress."
+},
+
+{
+  chapter: 4,
+  concept: "Work-Family Conflict",
+  type: "Application",
+  question:
+    "An employee repeatedly misses family responsibilities because work demands extend into evenings and weekends. Which concept best describes the problem?",
+  answers: [
+    "Work-family conflict",
+    "Role ambiguity",
+    "Psychological hardiness",
+    "Eustress"
+  ],
+  correct: 0,
+  explanation:
+    "Work-family conflict occurs when pressures from work and family are incompatible."
+},
+
+{
+  chapter: 4,
+  concept: "Time Pressure",
+  type: "Framework",
+  question:
+    "A reasonable deadline helps an employee focus and complete a project, but an impossible deadline causes mistakes and frustration. What is the best interpretation?",
+  answers: [
+    "Time pressure is always a hindrance stressor",
+    "Moderate time pressure can function as a challenge stressor, while extreme pressure can become harmful",
+    "Deadlines have no effect on performance",
+    "Only personality determines whether deadlines matter"
+  ],
+  correct: 1,
+  explanation:
+    "Time pressure can help focus attention and effort when manageable, but extreme pressure can overwhelm resources."
+},
+
+{
+  chapter: 4,
+  concept: "Workload",
+  type: "Framework",
+  question:
+    "Why can workload sometimes function as a challenge stressor rather than a hindrance?",
+  answers: [
+    "All heavy workloads are positive",
+    "A manageable workload can increase learning, engagement, and effort when resources are sufficient",
+    "Workload never creates strain",
+    "Workload affects only physical health"
+  ],
+  correct: 1,
+  explanation:
+    "Moderate workload can support engagement and learning, but excessive workload can become harmful."
+},
+
+{
+  chapter: 4,
+  concept: "Level of Responsibility",
+  type: "Application",
+  question:
+    "An employee receives greater accountability for an important project and feels pressure but also stronger motivation to perform well. Which type of stressor is most directly illustrated?",
+  answers: [
+    "Challenge stressor",
+    "Hindrance stressor",
+    "Role ambiguity",
+    "Daily hassle"
+  ],
+  correct: 0,
+  explanation:
+    "Higher responsibility can be stressful but may also promote growth, accountability, and achievement."
+},
+
+{
+  chapter: 4,
+  concept: "Transactional Theory",
+  type: "Framework",
+  question:
+    "Two employees face the same organizational change but experience very different levels of stress. Which theory best explains why?",
+  answers: [
+    "Transactional theory",
+    "Resource-based view",
+    "Unfolding model",
+    "High-performance work practices"
+  ],
+  correct: 0,
+  explanation:
+    "Transactional theory explains stress as an interaction between the person, the environment, and how the demand is appraised."
+},
+
+{
+  chapter: 4,
+  concept: "Primary Appraisal",
+  type: "Application",
+  question:
+    "An employee first asks, 'Is this change a threat, a challenge, or a potential loss for me?' Which stage of transactional theory is this?",
+  answers: [
+    "Primary appraisal",
+    "Secondary appraisal",
+    "Coping",
+    "Recovery"
+  ],
+  correct: 0,
+  explanation:
+    "Primary appraisal evaluates what the demand means to the individual."
+},
+
+{
+  chapter: 4,
+  concept: "Secondary Appraisal",
+  type: "Application",
+  question:
+    "After deciding that a deadline is important, an employee asks, 'Do I have enough time, skill, support, and control to handle it?' Which stage is this?",
+  answers: [
+    "Primary appraisal",
+    "Secondary appraisal",
+    "Strain",
+    "Role conflict"
+  ],
+  correct: 1,
+  explanation:
+    "Secondary appraisal evaluates the resources available to cope with the demand."
+},
+
+{
+  chapter: 4,
+  concept: "Demands and Resources",
+  type: "Framework",
+  question:
+    "An employee faces a difficult project but has strong skills, sufficient time, supportive coworkers, and decision authority. What does the Chapter 4 framework predict?",
+  answers: [
+    "The demand must produce harmful stress",
+    "Strong resources can make the demand more manageable and more likely to be appraised as a challenge",
+    "Resources do not influence stress",
+    "The employee will automatically avoid the task"
+  ],
+  correct: 1,
+  explanation:
+    "Stress depends partly on the balance between demands and available resources."
+},
+
+{
+  chapter: 4,
+  concept: "Coping",
+  type: "Application",
+  question:
+    "An employee responds to a stressful problem by creating a plan, asking for help, and addressing the source directly. Which type of response is most consistent with adaptive coping?",
+  answers: [
+    "Problem solving and support seeking",
+    "Avoidance and withdrawal",
+    "Role conflict",
+    "Cyber loafing"
+  ],
+  correct: 0,
+  explanation:
+    "Adaptive coping includes constructive responses such as problem solving, support seeking, and reframing."
+},
+
+{
+  chapter: 4,
+  concept: "Maladaptive Coping",
+  type: "Application",
+  question:
+    "An employee responds to stress by ignoring the problem, withdrawing from coworkers, and avoiding necessary decisions. Which type of coping is this?",
+  answers: [
+    "Adaptive coping",
+    "Maladaptive coping",
+    "Eustress",
+    "Mindfulness"
+  ],
+  correct: 1,
+  explanation:
+    "Avoidance and withdrawal are examples of maladaptive coping because they often fail to address the stressor effectively."
+},
+
+{
+  chapter: 4,
+  concept: "Type A Behavior",
+  type: "Application",
+  question:
+    "An employee is chronically impatient, highly competitive, always rushed, and constantly trying to accomplish more in less time. Which pattern best fits?",
+  answers: [
+    "Type A behavior",
+    "Psychological hardiness",
+    "Positive affectivity",
+    "Normative commitment"
+  ],
+  correct: 0,
+  explanation:
+    "Type A behavior includes chronic urgency, competitiveness, impatience, and strong achievement pressure."
+},
+
+{
+  chapter: 4,
+  concept: "Demand-Control Model",
+  type: "Framework",
+  question:
+    "Which combination is most likely to create high strain?",
+  answers: [
+    "High demand and low control",
+    "High demand and high control",
+    "Low demand and high control",
+    "Low demand and low control"
+  ],
+  correct: 0,
+  explanation:
+    "The demand-control model predicts the greatest strain when demands are high and decision latitude is low."
+},
+
+{
+  chapter: 4,
+  concept: "High-Strain Job",
+  type: "Application",
+  question:
+    "A call-center employee faces constant customer pressure, strict scripts, heavy workload, and little discretion over how work is done. Which demand-control zone best fits?",
+  answers: [
+    "High strain",
+    "Active",
+    "Passive",
+    "Low strain"
+  ],
+  correct: 0,
+  explanation:
+    "High demand combined with low control creates the high-strain condition."
+},
+
+{
+  chapter: 4,
+  concept: "Active Job",
+  type: "Application",
+  question:
+    "A surgeon faces intense demands but also has substantial skill discretion, autonomy, and decision authority. Which demand-control zone best fits?",
+  answers: [
+    "High strain",
+    "Active",
+    "Passive",
+    "Low strain"
+  ],
+  correct: 1,
+  explanation:
+    "High demand combined with high control creates an active job that may be challenging and growth-promoting."
+},
+
+{
+  chapter: 4,
+  concept: "Passive Job",
+  type: "Application",
+  question:
+    "An employee performs simple repetitive work with little decision authority and few meaningful demands. Which demand-control zone best fits?",
+  answers: [
+    "High strain",
+    "Active",
+    "Passive",
+    "Low strain"
+  ],
+  correct: 2,
+  explanation:
+    "Low demand combined with low control can create passivity, disengagement, and skill atrophy."
+},
+
+{
+  chapter: 4,
+  concept: "Low-Strain Job",
+  type: "Application",
+  question:
+    "An employee has manageable demands and substantial control over how and when work is completed. Which demand-control zone best fits?",
+  answers: [
+    "High strain",
+    "Active",
+    "Passive",
+    "Low strain"
+  ],
+  correct: 3,
+  explanation:
+    "Low demand combined with high control produces the low-strain condition."
+},
+
+{
+  chapter: 4,
+  concept: "Social Support",
+  type: "Application",
+  question:
+    "An employee facing role conflict receives practical help and emotional support from coworkers and family. What is the likely effect?",
+  answers: [
+    "Social support can buffer some negative effects of stress",
+    "Social support increases role ambiguity",
+    "Social support eliminates all stress",
+    "Social support reduces cognitive ability"
+  ],
+  correct: 0,
+  explanation:
+    "Social support can reduce stress and burnout and buffer the effects of hindrance stressors."
+},
+
+{
+  chapter: 4,
+  concept: "Psychological Hardiness",
+  type: "Framework",
+  question:
+    "Which set of characteristics best reflects psychological hardiness?",
+  answers: [
+    "Physical fitness, commitment, control, social connectedness, and challenge orientation",
+    "High workload, low control, and low support",
+    "Avoidance, withdrawal, and suppression",
+    "Extraversion, openness, and agreeableness"
+  ],
+  correct: 0,
+  explanation:
+    "The chapter describes psychological hardiness through physical fitness, commitment, control, connectedness, and viewing difficulty as a challenge."
+},
+
+{
+  chapter: 4,
+  concept: "Hardiness - Physical Fitness",
+  type: "Application",
+  question:
+    "Why is physical fitness included in psychological hardiness?",
+  answers: [
+    "Exercise can improve stress tolerance, mood regulation, and recovery capacity",
+    "Exercise removes all workplace stressors",
+    "Physical fitness guarantees high job performance",
+    "Exercise replaces social support"
+  ],
+  correct: 0,
+  explanation:
+    "Regular exercise can reduce negative physical and psychological effects of stress and improve resilience."
+},
+
+{
+  chapter: 4,
+  concept: "Hardiness - Commitment",
+  type: "Application",
+  question:
+    "An employee continues working toward an important goal despite setbacks and discouraging news. Which hardiness factor is most directly illustrated?",
+  answers: [
+    "Commitment",
+    "Control",
+    "Challenge",
+    "Role clarity"
+  ],
+  correct: 0,
+  explanation:
+    "Commitment reflects staying engaged with important goals rather than withdrawing under pressure."
+},
+
+{
+  chapter: 4,
+  concept: "Hardiness - Control",
+  type: "Application",
+  question:
+    "An employee facing a stressful situation focuses on the parts that can be influenced rather than obsessing over everything outside personal control. Which hardiness factor is this?",
+  answers: [
+    "Commitment",
+    "Control",
+    "Connectedness",
+    "Challenge"
+  ],
+  correct: 1,
+  explanation:
+    "Control means believing that one's actions can influence outcomes and focusing effort where influence is possible."
+},
+
+{
+  chapter: 4,
+  concept: "Hardiness - Connectedness",
+  type: "Application",
+  question:
+    "An employee reaches out to trusted coworkers, friends, and family during a difficult period instead of isolating. Which hardiness factor is most directly illustrated?",
+  answers: [
+    "Control",
+    "Connectedness",
+    "Challenge",
+    "Role overload"
+  ],
+  correct: 1,
+  explanation:
+    "Connectedness uses social relationships as a source of support, perspective, and resilience."
+},
+
+{
+  chapter: 4,
+  concept: "Hardiness - Challenge",
+  type: "Application",
+  question:
+    "An employee interprets a difficult change as an opportunity to learn rather than only as a threat to survive. Which hardiness factor is most directly illustrated?",
+  answers: [
+    "Challenge",
+    "Control",
+    "Commitment",
+    "Withdrawal"
+  ],
+  correct: 0,
+  explanation:
+    "Hardy individuals are more likely to interpret difficulty as a challenge and opportunity for growth."
+},
+
+{
+  chapter: 4,
+  concept: "Small Wins",
+  type: "Application",
+  question:
+    "A large project feels overwhelming, so an employee breaks it into smaller actions and completes one manageable step at a time. Which stress-management principle is being used?",
+  answers: [
+    "Small wins",
+    "Role conflict",
+    "Negative affectivity",
+    "Continuance commitment"
+  ],
+  correct: 0,
+  explanation:
+    "Breaking large demands into smaller achievable steps can increase perceived control and confidence."
+},
+
+{
+  chapter: 4,
+  concept: "Mindfulness",
+  type: "Recognition",
+  question:
+    "Which description best matches mindfulness?",
+  answers: [
+    "Purposefully paying attention to the present moment",
+    "Suppressing all negative thoughts",
+    "Avoiding stressful situations",
+    "Multitasking efficiently"
+  ],
+  correct: 0,
+  explanation:
+    "Mindfulness involves intentionally focusing attention on present-moment experience."
+},
+
+{
+  chapter: 4,
+  concept: "STOP Framework",
+  type: "Framework",
+  question:
+    "A manager receives an upsetting message and feels an immediate urge to respond angrily. Which response best applies STOP?",
+  answers: [
+    "Reply immediately before emotions increase",
+    "Stop, take a breath, observe thoughts and emotions, then proceed intentionally",
+    "Ignore the message indefinitely",
+    "Ask someone else to decide what to say"
+  ],
+  correct: 1,
+  explanation:
+    "STOP creates a pause between emotional activation and behavior: Stop, Take a breath, Observe, Proceed."
+},
+
+{
+  chapter: 4,
+  concept: "Mindfulness and Attention",
+  type: "Application",
+  question:
+    "Why can mindfulness help under stress?",
+  answers: [
+    "It can improve present-moment awareness and create time to choose a response",
+    "It eliminates all external demands",
+    "It guarantees productivity gains",
+    "It prevents every negative emotion"
+  ],
+  correct: 0,
+  explanation:
+    "Mindfulness can improve awareness, reduce automatic reactions, and create space for more intentional responses."
+},
+
+{
+  chapter: 4,
+  concept: "Mindfulness Evidence",
+  type: "Framework",
+  question:
+    "A company cites one case reporting an 11:1 return on mindfulness training and assumes the same return will occur everywhere. What is the best response?",
+  answers: [
+    "The exact return should be expected in every organization",
+    "The case is illustrative evidence and should be evaluated locally rather than treated as a universal forecast",
+    "Mindfulness has no organizational value",
+    "Financial outcomes should never be measured"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture explicitly warns against treating one organization's reported ROI as a guaranteed universal result."
+},
+
+{
+  chapter: 4,
+  concept: "Choking",
+  type: "Recognition",
+  question:
+    "An employee performs well in practice but suddenly performs much worse during a high-pressure presentation. Which concept best describes this?",
+  answers: [
+    "Choking",
+    "Role ambiguity",
+    "Eustress",
+    "Psychological hardiness"
+  ],
+  correct: 0,
+  explanation:
+    "Choking refers to a decline in performance under pressure."
+},
+
+{
+  chapter: 4,
+  concept: "Pressure Practice",
+  type: "Application",
+  question:
+    "A student practices a presentation in front of several people before an important interview so the pressure feels more familiar. Which choking-reduction strategy is this?",
+  answers: [
+    "Pressure practice",
+    "Role clarification",
+    "Mood repair",
+    "Cyber loafing"
+  ],
+  correct: 0,
+  explanation:
+    "Pressure practice involves rehearsing under mild stress so high-pressure conditions become more manageable."
+},
+
+{
+  chapter: 4,
+  concept: "Automated Behavior",
+  type: "Application",
+  question:
+    "An experienced athlete performs worse when forced to consciously analyze a movement that is normally automatic. What does choking research suggest?",
+  answers: [
+    "Experts may perform better by relying on well-practiced automatic behavior",
+    "Experts should consciously analyze every movement",
+    "Practice reduces automaticity",
+    "Stress improves every learned skill"
+  ],
+  correct: 0,
+  explanation:
+    "For well-practiced skills, excessive conscious control can interfere with automatic execution."
+},
+
+{
+  chapter: 4,
+  concept: "Time Management",
+  type: "Framework",
+  question:
+    "What is the core idea behind effective time management in Chapter 4?",
+  answers: [
+    "Work longer hours",
+    "Direct time and effort toward the most important priorities",
+    "Complete easy tasks first",
+    "Multitask whenever possible"
+  ],
+  correct: 1,
+  explanation:
+    "Effective time management is about working on the right things, not merely working harder or longer."
+},
+
+{
+  chapter: 4,
+  concept: "ABC Method",
+  type: "Application",
+  question:
+    "A manager labels high-priority tasks A, medium-priority tasks B, and low-priority tasks C. What method is being used?",
+  answers: [
+    "ABC method",
+    "STOP method",
+    "Demand-control model",
+    "Transactional appraisal"
+  ],
+  correct: 0,
+  explanation:
+    "The ABC method prioritizes tasks according to importance."
+},
+
+{
+  chapter: 4,
+  concept: "Procrastination",
+  type: "Application",
+  question:
+    "An employee avoids an important report by repeatedly checking email and organizing files. What is the main time-management problem?",
+  answers: [
+    "Procrastination",
+    "Role conflict",
+    "Eustress",
+    "Work engagement"
+  ],
+  correct: 0,
+  explanation:
+    "Procrastination occurs when important work is delayed while lower-priority activities are used as avoidance."
+},
+
+{
+  chapter: 4,
+  concept: "Eat the Frog",
+  type: "Application",
+  question:
+    "An employee deliberately starts the day with the hardest and most dreaded important task. Which time-management strategy is this?",
+  answers: [
+    "Eat the Frog",
+    "Mood repair",
+    "Role clarification",
+    "Social support"
+  ],
+  correct: 0,
+  explanation:
+    "Eat the Frog means tackling the most difficult or important task early rather than avoiding it."
+},
+
+{
+  chapter: 4,
+  concept: "Just 5 Minutes",
+  type: "Application",
+  question:
+    "An employee overcomes procrastination by committing to work on a difficult task for only five minutes. Which strategy is being used?",
+  answers: [
+    "Just 5 Minutes",
+    "Two-minute rule",
+    "Demand-control model",
+    "Work-family boundary"
+  ],
+  correct: 0,
+  explanation:
+    "The five-minute strategy lowers the barrier to starting and often builds momentum."
+},
+
+{
+  chapter: 4,
+  concept: "Two-Minute Rule",
+  type: "Application",
+  question:
+    "An employee receives a necessary task that will take about one minute to complete. What does the two-minute rule recommend?",
+  answers: [
+    "Do it immediately",
+    "Schedule it for next week",
+    "Delegate it automatically",
+    "Ignore it because it is too small"
+  ],
+  correct: 0,
+  explanation:
+    "The two-minute rule recommends completing necessary tasks immediately when they take less than about two minutes."
+},
+
+{
+  chapter: 4,
+  concept: "Multitasking",
+  type: "Application",
+  question:
+    "An employee constantly switches between a report, messages, email, and meetings and notices that work takes longer. What does Chapter 4 suggest?",
+  answers: [
+    "Multitasking improves efficiency",
+    "Attention switching creates costs, so focusing on one task at a time is generally more efficient",
+    "Multitasking only harms creative employees",
+    "Electronic interruptions do not affect performance"
+  ],
+  correct: 1,
+  explanation:
+    "The reading emphasizes that switching attention repeatedly increases processing costs and reduces efficiency."
+},
+
+{
+  chapter: 4,
+  concept: "Saying No Strategically",
+  type: "Application",
+  question:
+    "An employee already has several important commitments and receives another low-priority request. What is the best time-management response?",
+  answers: [
+    "Accept every request to preserve relationships",
+    "Decline or renegotiate the request to protect higher priorities",
+    "Ignore the requester",
+    "Work through the night"
+  ],
+  correct: 1,
+  explanation:
+    "Strategic refusal protects limited time, energy, and the quality of existing commitments."
+},
+
+{
+  chapter: 4,
+  concept: "Boundaries",
+  type: "Framework",
+  question:
+    "Which statement best reflects an effective workload boundary?",
+  answers: [
+    "You need to stop assigning me things",
+    "I can complete the report or the additional review this week at the expected quality. Which should take priority?",
+    "This is unfair and I refuse everything",
+    "I will try to do all of it somehow"
+  ],
+  correct: 1,
+  explanation:
+    "Effective boundaries clarify capacity, focus on observable demands, propose an action, and center on one's own behavior."
+},
+
+{
+  chapter: 4,
+  concept: "Boundary Types",
+  type: "Application",
+  question:
+    "An employee says, 'I'm not available after 5 p.m., but I'll follow up first thing tomorrow.' Which type of boundary is this?",
+  answers: [
+    "Time boundary",
+    "Ethical boundary",
+    "Role boundary",
+    "Emotional boundary"
+  ],
+  correct: 0,
+  explanation:
+    "A time boundary protects focus, recovery, and work-life balance by defining availability."
+},
+
+{
+  chapter: 4,
+  concept: "Energy Management",
+  type: "Framework",
+  question:
+    "Why does the lecture distinguish time management from energy management?",
+  answers: [
+    "A free hour does not always mean a person has high attention, judgment, or effort available",
+    "Time and energy are identical",
+    "Energy matters only for physical jobs",
+    "Time management eliminates the need for recovery"
+  ],
+  correct: 0,
+  explanation:
+    "Time determines when work can happen, while energy affects the quality of attention, judgment, and effort available."
+},
+
+{
+  chapter: 4,
+  concept: "Task-Capacity Fit",
+  type: "Application",
+  question:
+    "An employee knows that concentration is strongest early in the day and schedules complex analysis during that period while leaving routine administration for later. Which principle is being used?",
+  answers: [
+    "Match task demand to available capacity",
+    "Role overload",
+    "Psychological withdrawal",
+    "Continuance commitment"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture recommends aligning high-demand tasks with periods of higher cognitive and emotional capacity."
+},
+
+{
+  chapter: 4,
+  concept: "Net Energy",
+  type: "Framework",
+  question:
+    "A manager wants to improve sustainable performance. Which question best reflects the lecture's net-energy approach?",
+  answers: [
+    "How can we increase hours worked?",
+    "What energy costs can we reduce and what energy returns can we increase?",
+    "How can we eliminate all breaks?",
+    "How can we maximize task switching?"
+  ],
+  correct: 1,
+  explanation:
+    "Net energy improves when organizations reduce draining demands and increase resources such as autonomy, meaning, engagement, and positive connection."
+},
+
+{
+  chapter: 4,
+  concept: "Recovery",
+  type: "Distinction",
+  question:
+    "An employee takes a brief walk between demanding meetings to reduce immediate depletion. Which concept best fits?",
+  answers: [
+    "Recovery",
+    "Restoration",
+    "Role ambiguity",
+    "Challenge stress"
+  ],
+  correct: 0,
+  explanation:
+    "Recovery is a short downshift that helps prevent further depletion during ongoing demands."
+},
+
+{
+  chapter: 4,
+  concept: "Restoration",
+  type: "Distinction",
+  question:
+    "After a demanding week, an employee gets adequate sleep, exercises, spends time in nature, and disconnects meaningfully from work. Which concept best fits?",
+  answers: [
+    "Recovery",
+    "Restoration",
+    "Role conflict",
+    "Cyber loafing"
+  ],
+  correct: 1,
+  explanation:
+    "Restoration refers to deeper replenishment after accumulated demands."
+},
+
+{
+  chapter: 4,
+  concept: "Resilience",
+  type: "Framework",
+  question:
+    "Which combination best reflects the lecture's resilience framework?",
+  answers: [
+    "Regulate, recover, and relate",
+    "Avoid, suppress, and endure",
+    "Work harder, sleep less, and isolate",
+    "Control everything and eliminate uncertainty"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture frames resilience around regulation, recovery, and relationships."
+},
+
+{
+  chapter: 4,
+  concept: "Support Network",
+  type: "Application",
+  question:
+    "Why does the lecture recommend building a layered and diverse support network rather than depending on one person?",
+  answers: [
+    "Different relationships can provide different forms of support and reduce overdependence",
+    "Large networks eliminate all stress",
+    "Only professional relationships matter",
+    "Support networks reduce cognitive ability"
+  ],
+  correct: 0,
+  explanation:
+    "A diverse network distributes emotional, practical, and informational support across several relationships."
+},
+
+{
+  chapter: 4,
+  concept: "Organizational Responsibility for Stress",
+  type: "Application",
+  question:
+    "Employees report chronic role ambiguity, unrealistic deadlines, poor communication, and little control. Which response best reflects organizational responsibility?",
+  answers: [
+    "Tell employees to become more resilient",
+    "Redesign work conditions by improving clarity, participation, control, communication, and workload fit",
+    "Offer mindfulness training and leave all job conditions unchanged",
+    "Assume stress is entirely personal"
+  ],
+  correct: 1,
+  explanation:
+    "Organizations can reduce avoidable stress by changing work design, communication, participation, workload, and control."
+},
+
+{
+  chapter: 4,
+  concept: "Frequent and Open Communication",
+  type: "Application",
+  question:
+    "A company is restructuring, and employees are stressed because they do not know what will happen to their roles. Which organizational intervention is most directly appropriate?",
+  answers: [
+    "Frequent and open communication",
+    "Increase workload",
+    "Reduce employee participation",
+    "Eliminate supervisor contact"
+  ],
+  correct: 0,
+  explanation:
+    "Clear and frequent communication reduces uncertainty and role ambiguity."
+},
+
+{
+  chapter: 4,
+  concept: "Employee Participation",
+  type: "Application",
+  question:
+    "A manager allows employees to help shape scheduling and work procedures that directly affect them. What stress-reduction mechanism is being increased?",
+  answers: [
+    "Employee participation and control",
+    "Role ambiguity",
+    "Hindrance stress",
+    "Physical withdrawal"
+  ],
+  correct: 0,
+  explanation:
+    "Participation can increase control and reduce stress by giving employees more influence over relevant work conditions."
+},
+
+{
+  chapter: 4,
+  concept: "Telecommuting and Stress",
+  type: "Framework",
+  question:
+    "What is the best interpretation of evidence on telecommuting and stress?",
+  answers: [
+    "Telecommuting always improves performance",
+    "Moderate telecommuting can reduce stress and exhaustion and may improve attitudes, though effects depend on the situation",
+    "Telecommuting always increases turnover",
+    "Telecommuting has no effect on well-being"
+  ],
+  correct: 1,
+  explanation:
+    "The reading presents telecommuting as potentially beneficial for stress and well-being, while emphasizing that results are not universally positive."
+},
+
+{
+  chapter: 4,
+  concept: "Person-Environment Fit and Stress",
+  type: "Application",
+  question:
+    "A highly risk-tolerant employee thrives in a demanding culture with high autonomy, while another employee who values predictability experiences severe stress. What is the best explanation?",
+  answers: [
+    "Person-environment fit affects stress reactions",
+    "High autonomy always reduces stress for everyone",
+    "Only workload determines stress",
+    "Personality never matters"
+  ],
+  correct: 0,
+  explanation:
+    "The Netflix case emphasizes that stress depends partly on how individual preferences and characteristics fit the work environment."
+},
+
+{
+  chapter: 4,
+  concept: "Integrated Stress Diagnosis",
+  type: "Framework",
+  question:
+    "An employee is overwhelmed, has unclear priorities, little control, weak support, and poor recovery. What is the best managerial response?",
+  answers: [
+    "Teach mindfulness only",
+    "Diagnose demands and appraisal, reduce unnecessary hindrances, increase control and support, improve recovery, and evaluate the outcome",
+    "Increase monitoring",
+    "Assume the employee lacks resilience"
+  ],
+  correct: 1,
+  explanation:
+    "Chapter 4 emphasizes diagnosing the whole stress system rather than relying on a single coping technique."
+},
+
+{
+  chapter: 4,
+  concept: "Integrated Chapter 4 Philosophy",
+  type: "Framework",
+  question:
+    "Which statement best reflects the overall Chapter 4 philosophy?",
+  answers: [
+    "The goal is to eliminate every source of stress",
+    "The goal is to diagnose demands, understand appraisal and resources, manage controllable stressors, build resilience, and redesign unhealthy work conditions",
+    "Stress should be treated entirely as an individual weakness",
+    "High performers should simply learn to tolerate unlimited demands"
+  ],
+  correct: 1,
+  explanation:
+    "The chapter treats stress as a person-environment process that can be improved through diagnosis, coping, resources, recovery, and organizational redesign."
 }
 ];
 // ======================================================
