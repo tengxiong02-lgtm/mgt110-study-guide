@@ -597,5 +597,961 @@ const questions = [
   correct: 1,
   explanation:
     "Chapter 1 emphasizes disciplined diagnosis: define the outcome, understand causes using evidence, predict the effects of possible actions under relevant contingencies, and evaluate what happens."
+},
+  // ======================================================
+// CHAPTER 2
+// THE CENTRAL ROLE OF PEOPLE IN ORGANIZATIONS
+// ======================================================
+
+{
+  chapter: 2,
+  concept: "The Hard Case for Soft Skills",
+  type: "Application",
+  question:
+    "A cost-cutting committee proposes reducing employee training, development, and people-management programs because they are expensive. Which response best reflects the Chapter 2 evidence?",
+  answers: [
+    "People practices mainly improve employee happiness but have little effect on firm results",
+    "Investments in people can improve productivity, retention, growth, and organizational performance",
+    "Technology investments always produce stronger returns than people investments",
+    "People practices matter only in service organizations"
+  ],
+  correct: 1,
+  explanation:
+    "Chapter 2 makes a business case for people practices: effective investment in employees is associated with stronger productivity, retention, growth, and overall organizational performance."
+},
+
+{
+  chapter: 2,
+  concept: "High-Performance Work Practices",
+  type: "Framework",
+  question:
+    "A company carefully selects employees, provides extensive development, gives workers meaningful decision authority, uses recognition and rewards, and actively works to retain strong performers. Which framework best describes this system?",
+  answers: [
+    "High-performance work practices",
+    "Organizational citizenship behavior",
+    "Job analysis",
+    "Psychological withdrawal"
+  ],
+  correct: 0,
+  explanation:
+    "High-performance work practices are a coordinated system designed to attract, develop, empower, motivate, and retain talented employees."
+},
+
+{
+  chapter: 2,
+  concept: "High-Performance Work Practices and Fit",
+  type: "Application",
+  question:
+    "Fresno State and Stanford both want to hire, develop, empower, motivate, and retain talented employees, but each applies those practices differently because their missions and environments differ. What principle does this illustrate?",
+  answers: [
+    "High-performance practices should be identical across organizations",
+    "The general principles may be similar, but implementation should fit the organization",
+    "Only research universities benefit from high-performance practices",
+    "Organizational mission should not affect people practices"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture emphasizes that high-performance principles can be broadly useful while their specific application depends on the organization's mission, people, and environment."
+},
+
+{
+  chapter: 2,
+  concept: "People-Practices System",
+  type: "Framework",
+  question:
+    "A firm hires talented employees and trains them well, but managers provide little autonomy or opportunity for employees to influence decisions. Which part of the people-practices system is weakest?",
+  answers: [
+    "Capability",
+    "Opportunity",
+    "Retention",
+    "Selection"
+  ],
+  correct: 1,
+  explanation:
+    "Hiring and development build capability, while empowerment creates the opportunity for employees to contribute."
+},
+
+{
+  chapter: 2,
+  concept: "People-Practices System Integration",
+  type: "Application",
+  question:
+    "A company has excellent hiring, training, and empowerment practices, but strong employees frequently leave after one year. Why can the system still fail?",
+  answers: [
+    "Retention is necessary to preserve the knowledge and capabilities the organization developed",
+    "Training eliminates the need for retention",
+    "High employee turnover always improves performance",
+    "Empowerment is more important than every other practice combined"
+  ],
+  correct: 0,
+  explanation:
+    "The people-practices system is interconnected. If strong employees leave, the organization loses human capital it invested in developing."
+},
+
+{
+  chapter: 2,
+  concept: "Resource-Based View",
+  type: "Theory",
+  question:
+    "A company has a workforce with specialized knowledge, strong customer relationships, and a deeply embedded service culture that competitors struggle to reproduce. Which theory best explains why this can create competitive advantage?",
+  answers: [
+    "Resource-based view",
+    "Demand-control model",
+    "Unfolding model",
+    "Job characteristics model"
+  ],
+  correct: 0,
+  explanation:
+    "The resource-based view explains competitive advantage through valuable organizational resources, including human capital that competitors cannot easily copy or replace."
+},
+
+{
+  chapter: 2,
+  concept: "Rare Human Capital",
+  type: "Application",
+  question:
+    "Which workforce is most likely to create an advantage under the resource-based view?",
+  answers: [
+    "Employees with skills that every competitor can easily hire",
+    "Employees with capabilities that are valuable and uncommon in the industry",
+    "Employees who perform routine tasks easily replaced by automation",
+    "Employees whose knowledge has no connection to customer value"
+  ],
+  correct: 1,
+  explanation:
+    "Human capital is more strategically valuable when it creates value and is rare relative to competitors."
+},
+
+{
+  chapter: 2,
+  concept: "Inimitable Human Capital",
+  type: "Application",
+  question:
+    "A competitor knows that Ritz-Carlton provides exceptional service but cannot easily reproduce the culture, routines, relationships, and employee behaviors behind that service. Which RBV condition is most directly illustrated?",
+  answers: [
+    "Efficiency",
+    "Inimitability",
+    "Turnover",
+    "Task performance"
+  ],
+  correct: 1,
+  explanation:
+    "Inimitable resources are difficult for competitors to duplicate, especially when their value comes from complex cultures, relationships, routines, and accumulated experience."
+},
+
+{
+  chapter: 2,
+  concept: "Substitutability",
+  type: "Application",
+  question:
+    "A bank replaces many routine teller transactions with ATMs and smartphone applications. What RBV question does this raise about human capital?",
+  answers: [
+    "Whether employees are socially desirable",
+    "Whether technology can substitute for some of the human contribution",
+    "Whether employees demonstrate OCB",
+    "Whether turnover is voluntary"
+  ],
+  correct: 1,
+  explanation:
+    "Under the resource-based view, human capital creates less advantage when effective substitutes can perform the same function."
+},
+
+{
+  chapter: 2,
+  concept: "Concept, Theory, Model, and Framework",
+  type: "Distinction",
+  question:
+    "A manager uses the resource-based view to explain why unique human capital can create competitive advantage. In the lecture's terminology, the resource-based view is primarily what type of intellectual tool?",
+  answers: [
+    "Concept",
+    "Theory",
+    "Model",
+    "Measurement scale"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture defines a theory as an explanation of why something happens. The resource-based view explains why certain organizational resources can create competitive advantage."
+},
+
+{
+  chapter: 2,
+  concept: "Choosing a Framework",
+  type: "Framework",
+  question:
+    "Employees are doing the minimum required. A manager could analyze motivation, engagement, job design, leadership, or high-performance work practices. What should determine which framework the manager uses?",
+  answers: [
+    "Whichever framework has the most steps",
+    "Whichever framework the manager learned most recently",
+    "The framework that best fits the problem and available evidence and points toward useful action",
+    "All frameworks should always be used at the same time"
+  ],
+  correct: 2,
+  explanation:
+    "The lecture emphasizes selecting the framework that best explains the main problem using available evidence and that can guide practical action."
+},
+
+{
+  chapter: 2,
+  concept: "Diagnose Before You Act",
+  type: "Framework",
+  question:
+    "Employees are disengaged and doing the minimum. What is the biggest mistake a manager could make according to the Chapter 2 lecture?",
+  answers: [
+    "Collecting employee data",
+    "Identifying the problem",
+    "Jumping directly to an intervention before diagnosing the causes",
+    "Evaluating whether an intervention worked"
+  ],
+  correct: 2,
+  explanation:
+    "The lecture repeatedly emphasizes that good solutions begin with diagnosis rather than immediately prescribing a solution."
+},
+
+{
+  chapter: 2,
+  concept: "Five-Step Action Framework",
+  type: "Framework",
+  question:
+    "Which sequence best reflects the Chapter 2 workplace problem-solving process?",
+  answers: [
+    "Intervene → diagnose → identify → evaluate → select framework",
+    "Identify problem → diagnose causes → select framework → develop intervention → evaluate result",
+    "Select framework → intervene → identify problem → evaluate → diagnose",
+    "Evaluate → identify → intervene → diagnose → select framework"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture's five-step process is Identify Problem, Diagnose Causes, Select Framework, Develop Intervention, and Evaluate Result."
+},
+
+{
+  chapter: 2,
+  concept: "Individual Job Performance",
+  type: "Recognition",
+  question:
+    "An employee consistently completes required responsibilities, demonstrates the necessary job skills, achieves assigned goals, and contributes reliably over time. What outcome is being described?",
+  answers: [
+    "Individual job performance",
+    "Organizational citizenship behavior",
+    "Workplace incivility",
+    "Psychological withdrawal"
+  ],
+  correct: 0,
+  explanation:
+    "Individual job performance concerns how successfully an employee fulfills the requirements of the role."
+},
+
+{
+  chapter: 2,
+  concept: "Task Performance",
+  type: "Recognition",
+  question:
+    "A payroll specialist accurately processes employee paychecks by each required deadline. Which component of job performance is most directly illustrated?",
+  answers: [
+    "Task performance",
+    "Organizational citizenship behavior",
+    "Psychological withdrawal",
+    "Civic virtue"
+  ],
+  correct: 0,
+  explanation:
+    "Task performance concerns effective completion of the core substantive or technical duties required by the job."
+},
+
+{
+  chapter: 2,
+  concept: "Effectiveness",
+  type: "Distinction",
+  question:
+    "A sales employee meets the quarterly revenue target but spends substantially more money entertaining clients than budgeted. Which statement is most accurate?",
+  answers: [
+    "The employee is effective but may not be efficient",
+    "The employee is efficient but not effective",
+    "The employee demonstrates only OCB",
+    "The employee is neither effective nor efficient because costs increased"
+  ],
+  correct: 0,
+  explanation:
+    "Effectiveness concerns achieving the desired result. Efficiency concerns how many resources are used to achieve it."
+},
+
+{
+  chapter: 2,
+  concept: "Efficiency",
+  type: "Distinction",
+  question:
+    "An employee uses very little time and money but repeatedly fails to achieve required sales goals. Which statement best describes the situation?",
+  answers: [
+    "The employee is efficient but ineffective",
+    "The employee is effective but inefficient",
+    "The employee demonstrates high OCB",
+    "The employee demonstrates strong team performance"
+  ],
+  correct: 0,
+  explanation:
+    "Efficiency concerns resource use, while effectiveness concerns whether the required result was actually achieved."
+},
+
+{
+  chapter: 2,
+  concept: "Job Analysis",
+  type: "Application",
+  question:
+    "A manager wants to create a valid performance evaluation for restaurant managers. What should the manager do first?",
+  answers: [
+    "Ask employees whether they enjoy the job",
+    "Identify the critical job tasks and the knowledge, skills, and abilities required",
+    "Compare manager salaries across the industry",
+    "Measure organizational citizenship behavior only"
+  ],
+  correct: 1,
+  explanation:
+    "Job analysis identifies the actual work and the knowledge, skills, and abilities required for effective performance."
+},
+
+{
+  chapter: 2,
+  concept: "O*NET",
+  type: "Application",
+  question:
+    "A manager has little firsthand knowledge of a job and needs a structured source for identifying common tasks and worker requirements. Which resource from Chapter 2 would be most useful?",
+  answers: [
+    "O*NET",
+    "Gallup Q12",
+    "SWOT",
+    "The unfolding model"
+  ],
+  correct: 0,
+  explanation:
+    "O*NET provides standardized occupational information about job tasks, worker attributes, and job requirements that can support job analysis."
+},
+
+{
+  chapter: 2,
+  concept: "Measuring Job Performance",
+  type: "Framework",
+  question:
+    "A manager knows that salespeople must make sales calls. Why is this information alone insufficient for measuring task performance?",
+  answers: [
+    "Job tasks should never be measured",
+    "The manager also needs standards describing the quantity or quality of performance",
+    "Only employee satisfaction should be measured",
+    "Performance cannot be compared across employees"
+  ],
+  correct: 1,
+  explanation:
+    "Identifying a task does not establish how well it must be performed. Performance measurement requires meaningful standards for the level or quality of execution."
+},
+
+{
+  chapter: 2,
+  concept: "Organizational Citizenship Behavior",
+  type: "Recognition",
+  question:
+    "An employee completes required work and then voluntarily helps a coworker learn a new system even though helping is not part of the employee's formal duties. Which concept best describes the behavior?",
+  answers: [
+    "Task performance",
+    "Organizational citizenship behavior",
+    "Counterproductive work behavior",
+    "Psychological withdrawal"
+  ],
+  correct: 1,
+  explanation:
+    "OCB consists of voluntary behaviors that support coworkers or the organization beyond an employee's required core tasks."
+},
+
+{
+  chapter: 2,
+  concept: "OCB Individual vs Organization",
+  type: "Distinction",
+  question:
+    "An employee voluntarily helps a struggling coworker complete an assignment. This is best classified as which form of OCB?",
+  answers: [
+    "OCB directed toward an individual",
+    "OCB directed toward organizational property",
+    "Production-oriented CWB",
+    "Task performance"
+  ],
+  correct: 0,
+  explanation:
+    "Helping a particular coworker is citizenship behavior directed toward another individual rather than primarily toward the organization as a whole."
+},
+
+{
+  chapter: 2,
+  concept: "Task Performance and OCB Trade-Off",
+  type: "Framework",
+  question:
+    "A high-performing employee spends so much time helping coworkers that she begins missing her own major deadlines. What is the best interpretation?",
+  answers: [
+    "OCB always increases task performance",
+    "Helping behavior can benefit the organization, but excessive helping can compete with required task performance",
+    "Employees should never help coworkers",
+    "Task performance and OCB are the same behavior"
+  ],
+  correct: 1,
+  explanation:
+    "The reading describes a real tension: citizenship can support performance, but too much helping may consume resources needed for one's own required work."
+},
+
+{
+  chapter: 2,
+  concept: "Team Performance",
+  type: "Application",
+  question:
+    "A project team meets its goal on time and produces high-quality work, but members report that coordination is poor and several members do not contribute consistently. What is the best conclusion?",
+  answers: [
+    "Objective results alone provide a complete picture of team performance",
+    "Team performance should include outcomes as well as process factors and member contribution",
+    "The team is automatically high performing because it met the deadline",
+    "Team member perceptions should replace objective results"
+  ],
+  correct: 1,
+  explanation:
+    "The lecture emphasizes that team performance requires a broader view including outcomes, coordination, communication, contribution, adaptability, and other process indicators."
+},
+
+{
+  chapter: 2,
+  concept: "Team Success Process Factors",
+  type: "Framework",
+  question:
+    "Which team is most likely to perform effectively according to the Chapter 2 reading?",
+  answers: [
+    "A team with high confidence, cooperation, coordination, cohesion, and manageable conflict",
+    "A team with high conflict and low coordination but strong individual talent",
+    "A team with low cohesion and little cooperation but clear deadlines",
+    "A team that avoids all interaction between members"
+  ],
+  correct: 0,
+  explanation:
+    "The reading identifies confidence, cooperation, coordination, cohesion, and low levels of dysfunctional conflict as important team success process indicators."
+},
+
+{
+  chapter: 2,
+  concept: "Measuring Team Performance",
+  type: "Framework",
+  question:
+    "A manager wants the most complete picture of a team's performance. Which approach best fits the lecture?",
+  answers: [
+    "Use only the manager's rating",
+    "Use only objective project results",
+    "Combine manager ratings, team-member ratings, and objective results",
+    "Use only employee satisfaction"
+  ],
+  correct: 2,
+  explanation:
+    "The lecture recommends combining multiple perspectives because each measurement source captures different parts of team performance."
+},
+
+{
+  chapter: 2,
+  concept: "Work Engagement",
+  type: "Recognition",
+  question:
+    "An employee approaches work with high energy, deep involvement, dedication, and sustained focus. Which outcome is most directly illustrated?",
+  answers: [
+    "Work engagement",
+    "Continuance commitment",
+    "Psychological withdrawal",
+    "Production-oriented CWB"
+  ],
+  correct: 0,
+  explanation:
+    "Work engagement reflects energy, involvement, dedication, and sustained focus toward work."
+},
+
+{
+  chapter: 2,
+  concept: "Measuring Work Engagement",
+  type: "Application",
+  question:
+    "A company wants to determine whether employees are becoming more engaged after a workplace redesign. Which method is most directly appropriate?",
+  answers: [
+    "Employee engagement or pulse surveys",
+    "Inventory counts",
+    "Customer invoices only",
+    "Job descriptions only"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture identifies engagement and pulse surveys as direct methods for assessing vigor, dedication, involvement, and related engagement indicators."
+},
+
+{
+  chapter: 2,
+  concept: "Work Attitudes and Behavior",
+  type: "Framework",
+  question:
+    "An employee reports strong dissatisfaction and says she intends to leave. What is the best managerial interpretation?",
+  answers: [
+    "She will definitely quit",
+    "The attitude may predict an intention to leave, but actual turnover also depends on situational factors",
+    "Job attitudes have no relationship to behavior",
+    "Dissatisfied employees always become low performers"
+  ],
+  correct: 1,
+  explanation:
+    "Work attitudes often relate more strongly to intentions than to actual behavior. Whether the employee leaves also depends on alternatives, employability, costs, and other situational constraints."
+},
+
+{
+  chapter: 2,
+  concept: "Healthy Workplace",
+  type: "Application",
+  question:
+    "Which organization best fits the chapter's definition of a healthy workplace?",
+  answers: [
+    "One that maximizes productivity even if employee health deteriorates",
+    "One that supports employee health and well-being while also enhancing organizational performance",
+    "One where employees are happy regardless of performance",
+    "One that measures only financial outcomes"
+  ],
+  correct: 1,
+  explanation:
+    "A healthy workplace promotes employee health and well-being while also supporting organizational performance and productivity."
+},
+
+{
+  chapter: 2,
+  concept: "Multiple Bottom Lines",
+  type: "Application",
+  question:
+    "A company earns strong profits but causes major environmental damage and shifts large social costs onto the community. Why might a broader bottom-line approach judge the organization less successful?",
+  answers: [
+    "Because financial performance should never be measured",
+    "Because organizational success can include financial, social, and environmental outcomes",
+    "Because only employee satisfaction matters",
+    "Because profitability always signals organizational failure"
+  ],
+  correct: 1,
+  explanation:
+    "The reading describes broader approaches to organizational success that consider financial results alongside social and environmental consequences."
+},
+
+{
+  chapter: 2,
+  concept: "Balanced Scorecard Thinking",
+  type: "Framework",
+  question:
+    "A company tracks profit, customer outcomes, internal processes, and employee learning and development. Why is this useful?",
+  answers: [
+    "It prevents managers from relying on a single financial indicator of success",
+    "It eliminates the need to measure performance",
+    "It guarantees employee satisfaction",
+    "It measures only human capital"
+  ],
+  correct: 0,
+  explanation:
+    "Broader scorecards help managers track several strategic indicators instead of treating financial results as the only measure of organizational health."
+},
+
+{
+  chapter: 2,
+  concept: "Psychological Withdrawal",
+  type: "Recognition",
+  question:
+    "An employee still reports to work every day but mentally checks out, contributes little effort, and pays less attention to the job. Which concept best fits?",
+  answers: [
+    "Voluntary turnover",
+    "Psychological withdrawal",
+    "Organizational citizenship behavior",
+    "Work engagement"
+  ],
+  correct: 1,
+  explanation:
+    "Psychological withdrawal occurs when the employee remains physically present but cognitively or emotionally disengages from work."
+},
+
+{
+  chapter: 2,
+  concept: "Voluntary and Involuntary Turnover",
+  type: "Distinction",
+  question:
+    "An employee resigns to accept another job. Which type of turnover has occurred?",
+  answers: [
+    "Voluntary turnover",
+    "Involuntary turnover",
+    "Psychological withdrawal",
+    "Cyber loafing"
+  ],
+  correct: 0,
+  explanation:
+    "Voluntary turnover occurs when the employee chooses to leave. Involuntary turnover is initiated by the organization."
+},
+
+{
+  chapter: 2,
+  concept: "Turnover Costs",
+  type: "Application",
+  question:
+    "Why can losing an experienced high performer be especially costly?",
+  answers: [
+    "Only because the organization must advertise the vacancy",
+    "Because turnover can create recruiting, training, lost productivity, workload, relationship, and knowledge costs",
+    "Because new employees always earn more",
+    "Because turnover affects only human resources"
+  ],
+  correct: 1,
+  explanation:
+    "Turnover can create direct financial costs as well as lost productivity, institutional knowledge, social connections, and additional workload for remaining employees."
+},
+
+{
+  chapter: 2,
+  concept: "Pay and Turnover Myth",
+  type: "Application",
+  question:
+    "A manager assumes employees quit primarily because of low pay. What does the Chapter 2 evidence suggest?",
+  answers: [
+    "Pay is generally the only meaningful predictor of turnover",
+    "Pay matters, but satisfaction, commitment, and workplace relationships are often more important",
+    "Pay never affects turnover",
+    "Only high performers care about pay"
+  ],
+  correct: 1,
+  explanation:
+    "The chapter explicitly challenges the myth that low pay is the primary cause of turnover. Relationships, satisfaction, and commitment often play stronger roles."
+},
+
+{
+  chapter: 2,
+  concept: "Retaining High Performers",
+  type: "Framework",
+  question:
+    "A company wants to retain a highly capable employee with many outside opportunities. Which response is most consistent with the Chapter 2 evidence?",
+  answers: [
+    "Focus only on increasing base salary",
+    "Ensure fair pay, strengthen the boss-employee relationship, and provide new challenges and skill development",
+    "Reduce responsibility so the job becomes easier",
+    "Avoid discussing career development"
+  ],
+  correct: 1,
+  explanation:
+    "The reading emphasizes pay equity, strong manager relationships, challenging work, and continued development as important retention practices for high performers."
+},
+
+{
+  chapter: 2,
+  concept: "Realistic Job Preview",
+  type: "Framework",
+  question:
+    "A company wants to reduce turnover caused by employees discovering that a job is very different from what they expected. What should it do before hiring?",
+  answers: [
+    "Present only the positive parts of the job",
+    "Provide a realistic job preview that explains responsibilities, conditions, and both positive and negative aspects",
+    "Give applicants as little information as possible",
+    "Increase the signing bonus"
+  ],
+  correct: 1,
+  explanation:
+    "Realistic job previews create more accurate expectations before employment and can reduce later turnover caused by poor fit or unmet expectations."
+},
+
+{
+  chapter: 2,
+  concept: "Unfolding Model of Turnover",
+  type: "Framework",
+  question:
+    "An employee had not planned to leave, but after being denied an expected promotion she begins reconsidering the job, updates her resume, and eventually resigns. Which model best explains this process?",
+  answers: [
+    "Unfolding model of turnover",
+    "Resource-based view",
+    "Demand-control model",
+    "High-performance work system"
+  ],
+  correct: 0,
+  explanation:
+    "The unfolding model proposes that events or shocks can cause employees to reconsider their employment relationship and begin a pathway toward leaving."
+},
+
+{
+  chapter: 2,
+  concept: "Turnover Shocks",
+  type: "Application",
+  question:
+    "Which event could qualify as a turnover shock under the unfolding model?",
+  answers: [
+    "Only a negative event such as being denied a promotion",
+    "Only an event caused by the organization",
+    "A positive or negative event that causes an employee to reconsider the employment relationship",
+    "Only a change in salary"
+  ],
+  correct: 2,
+  explanation:
+    "Turnover shocks may be positive or negative, expected or unexpected, and job-related or unrelated to work."
+},
+
+{
+  chapter: 2,
+  concept: "Cyber Loafing",
+  type: "Application",
+  question:
+    "An employee spends part of the workday browsing nonwork websites and shopping online rather than completing assignments. Which concept best describes the behavior?",
+  answers: [
+    "Cyber loafing",
+    "OCB",
+    "Task performance",
+    "Civic virtue"
+  ],
+  correct: 0,
+  explanation:
+    "Cyber loafing is a form of psychological withdrawal involving Internet use that diverts attention from work."
+},
+
+{
+  chapter: 2,
+  concept: "Cyber Loafing and Contingency",
+  type: "Framework",
+  question:
+    "Research suggests brief online breaks may sometimes reduce stress, while excessive cyber loafing can severely reduce productivity. What broader OB lesson does this illustrate?",
+  answers: [
+    "All cyber loafing is beneficial",
+    "All cyber loafing should be prohibited",
+    "The effect of a behavior may depend on its amount and context",
+    "Stress and performance are unrelated"
+  ],
+  correct: 2,
+  explanation:
+    "The chapter uses cyber loafing to illustrate that even behaviors with possible short-term benefits can become harmful when excessive."
+},
+
+{
+  chapter: 2,
+  concept: "Counterproductive Work Behavior",
+  type: "Recognition",
+  question:
+    "An employee intentionally behaves in a way that the organization views as contrary to its legitimate interests. Which concept best applies?",
+  answers: [
+    "Counterproductive work behavior",
+    "Organizational citizenship behavior",
+    "Task performance",
+    "Work engagement"
+  ],
+  correct: 0,
+  explanation:
+    "CWB refers to intentional employee behavior that harms or undermines the organization or its members."
+},
+
+{
+  chapter: 2,
+  concept: "Production-Oriented CWB",
+  type: "Distinction",
+  question:
+    "An employee intentionally works slowly and takes excessive breaks to reduce output. Which type of CWB is most directly illustrated?",
+  answers: [
+    "Production-oriented CWB",
+    "Politically oriented CWB",
+    "Property-oriented CWB",
+    "Personally oriented CWB"
+  ],
+  correct: 0,
+  explanation:
+    "Production-oriented CWB involves intentionally reducing or undermining the effective completion of work."
+},
+
+{
+  chapter: 2,
+  concept: "Politically Oriented CWB",
+  type: "Distinction",
+  question:
+    "An employee spreads a false rumor about a coworker in order to damage the coworker's chances of receiving a promotion. Which type of CWB is this?",
+  answers: [
+    "Production-oriented CWB",
+    "Politically oriented CWB",
+    "Property-oriented CWB",
+    "Personally oriented CWB"
+  ],
+  correct: 1,
+  explanation:
+    "Politically oriented CWB attempts to undermine another person's workplace success through behaviors such as gossip, favoritism, or blame."
+},
+
+{
+  chapter: 2,
+  concept: "Property-Oriented CWB",
+  type: "Distinction",
+  question:
+    "An employee deliberately falsifies an expense report to take money from the company. Which category best fits?",
+  answers: [
+    "Production-oriented CWB",
+    "Politically oriented CWB",
+    "Property-oriented CWB",
+    "Psychological withdrawal"
+  ],
+  correct: 2,
+  explanation:
+    "Property-oriented CWB involves stealing, destroying, or misusing organizational property or resources."
+},
+
+{
+  chapter: 2,
+  concept: "Personally Oriented CWB",
+  type: "Distinction",
+  question:
+    "A supervisor repeatedly verbally abuses and threatens an employee. Which category of CWB is most directly illustrated?",
+  answers: [
+    "Production-oriented CWB",
+    "Politically oriented CWB",
+    "Property-oriented CWB",
+    "Personally oriented CWB"
+  ],
+  correct: 3,
+  explanation:
+    "Personally oriented CWB directly harms individuals through behaviors such as abuse, harassment, bullying, or aggression."
+},
+
+{
+  chapter: 2,
+  concept: "High Performer with CWB",
+  type: "Application",
+  question:
+    "A salesperson produces the highest revenue in the company but routinely humiliates coworkers and creates conflict. What is the best Chapter 2 conclusion?",
+  answers: [
+    "Strong task performance proves the employee cannot also engage in CWB",
+    "Organizations should examine task performance and harmful behavior separately because both can occur in the same employee",
+    "High performers should never be disciplined",
+    "CWB matters only when performance is low"
+  ],
+  correct: 1,
+  explanation:
+    "The reading warns that positive performance and CWB are not opposites. A strong performer may still engage in harmful behaviors that damage coworkers and the organization."
+},
+
+{
+  chapter: 2,
+  concept: "Workplace Incivility",
+  type: "Recognition",
+  question:
+    "A coworker repeatedly interrupts people, rolls his eyes, uses a dismissive tone, and makes disrespectful comments, although the intent to harm is not always clear. Which concept best fits?",
+  answers: [
+    "Workplace incivility",
+    "Physical withdrawal",
+    "Task performance",
+    "Organizational citizenship behavior"
+  ],
+  correct: 0,
+  explanation:
+    "Workplace incivility is low-intensity disrespectful behavior that violates workplace norms and often has ambiguous intent."
+},
+
+{
+  chapter: 2,
+  concept: "Incivility and Withdrawal",
+  type: "Framework",
+  question:
+    "A team experiences repeated disrespect from a manager. Employees gradually disengage, reduce effort, and some later begin missing work or leaving. Which pathway best fits the Chapter 2 material?",
+  answers: [
+    "Incivility → withdrawal → possible turnover",
+    "OCB → engagement → CWB",
+    "Task performance → incivility → efficiency",
+    "Turnover → engagement → cohesion"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture connects incivility with disengagement and withdrawal, which can become early signals of later absenteeism or turnover."
+},
+
+{
+  chapter: 2,
+  concept: "Responding to Incivility",
+  type: "Application",
+  question:
+    "A coworker makes a rude comment during a meeting. Which response best reflects the chapter's recommended approach?",
+  answers: [
+    "Respond with equal rudeness so the coworker understands the impact",
+    "Calmly identify the behavior or its impact without escalating the interaction",
+    "Ignore all incivility under every circumstance",
+    "Immediately resign"
+  ],
+  correct: 1,
+  explanation:
+    "The reading recommends avoiding escalation, responding professionally, and addressing the behavior constructively when possible."
+},
+
+{
+  chapter: 2,
+  concept: "Measuring OCB",
+  type: "Framework",
+  question:
+    "A manager wants to measure an employee's citizenship behavior but recognizes that the employee, manager, and peers may each see different behaviors. What approach provides the broadest perspective?",
+  answers: [
+    "Self-report only",
+    "Manager rating only",
+    "A 360-degree approach using multiple perspectives",
+    "Financial performance only"
+  ],
+  correct: 2,
+  explanation:
+    "The lecture emphasizes that self, manager, and peer perspectives can reveal different aspects of OCB and that multiple perspectives provide a fuller view."
+},
+
+{
+  chapter: 2,
+  concept: "Measurement and Diagnosis",
+  type: "Framework",
+  question:
+    "A department hits its production target, but surveys reveal disengagement, turnover is rising, and employees report widespread disrespect. What should the manager conclude?",
+  answers: [
+    "The department is healthy because the production target was achieved",
+    "Multiple performance and organizational-health indicators should be considered before judging the department",
+    "Employee experience should replace performance data",
+    "Turnover and engagement are unrelated to organizational effectiveness"
+  ],
+  correct: 1,
+  explanation:
+    "Chapter 2 emphasizes measuring several outcomes because current productivity alone may hide deeper problems in engagement, culture, withdrawal, or sustainability."
+},
+
+{
+  chapter: 2,
+  concept: "Performance and Engagement Outcomes",
+  type: "Framework",
+  question:
+    "Which group of indicators best answers the question, 'How well are people and teams functioning right now?'",
+  answers: [
+    "Individual performance, team performance, and work engagement",
+    "Turnover, CWB, and incivility only",
+    "Financial capital and physical capital",
+    "Job descriptions and salaries"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture groups individual performance, team performance, and work engagement as current operating indicators."
+},
+
+{
+  chapter: 2,
+  concept: "Organizational Health Indicators",
+  type: "Framework",
+  question:
+    "Which indicators provide broader signals about the employee experience and the sustainability of the workplace?",
+  answers: [
+    "OCB, CWB, and turnover",
+    "Revenue, cash flow, and inventory",
+    "Only individual task performance",
+    "Only employee salaries"
+  ],
+  correct: 0,
+  explanation:
+    "The lecture identifies OCB, CWB, and turnover as broader organizational-health indicators that reveal culture and sustainability issues."
+},
+
+{
+  chapter: 2,
+  concept: "Integrated Chapter 2 Diagnosis",
+  type: "Framework",
+  question:
+    "A company's productivity is declining, high performers are leaving, engagement is falling, and employees report little autonomy or development. Which response best reflects the full Chapter 2 philosophy?",
+  answers: [
+    "Increase pay immediately because turnover is primarily caused by compensation",
+    "Measure the key outcomes, diagnose where the people system is breaking down, select a relevant framework, intervene, and evaluate whether the indicators improve",
+    "Replace the lowest-performing employees first",
+    "Launch a morale event without gathering additional evidence"
+  ],
+  correct: 1,
+  explanation:
+    "Chapter 2 emphasizes evidence-based leadership: measure important outcomes, diagnose causes, use an appropriate framework, develop an intervention, and evaluate the result."
 }
 ];
