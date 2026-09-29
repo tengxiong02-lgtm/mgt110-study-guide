@@ -4191,7 +4191,7 @@ function showResults() {
 function showChapterBreakdown() {
   const breakdown = document.getElementById("chapterBreakdown");
 
-  const chapters = [1, 2, 3, 4];
+  const chapters = [...new Set(answeredQuestions.map(question => question.chapter))].sort((a, b) => a - b);
 
   let html = "<h3>Chapter Performance</h3>";
 
