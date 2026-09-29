@@ -4091,6 +4091,13 @@ function startQuizThree() {
 }
 
 
+function startQuizFour() {
+  currentQuestions = shuffleArray(
+    questions.filter(q => [14, 10, 15, 13].includes(q.chapter))
+  );
+  startQuiz("Quiz 4 — Mixed Practice");
+}
+
 function startQuiz(title) {
   if (currentQuestions.length === 0) {
     alert("No questions have been added for this chapter yet.");
