@@ -560,5 +560,89 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "Cognitive crafting changes how an employee interprets the purpose or meaning of the work."
+  },
+  {
+    "chapter": 8,
+    "concept": "Goal Commitment",
+    "type": "Application",
+    "question": "A manager wants employees to commit to a difficult goal. Which approach best matches the motivation lecture?",
+    "answers": [
+      "Explain why the goal matters, connect it to personal and organizational goals, involve employees in action planning, and keep the goal reasonably under their control",
+      "Make the goal as extreme as possible and punish any miss",
+      "Keep the purpose secret so employees focus only on the metric",
+      "Use the same goal and reward regardless of employee circumstances"
+    ],
+    "correct": 0,
+    "explanation": "The lecture recommends goals that are important, reasonable, fair, connected to personal and corporate goals, participatively supported, and substantially under the individual's control."
+  },
+  {
+    "chapter": 8,
+    "concept": "Goal Setting Risks",
+    "type": "Recognition",
+    "question": "Which set best reflects risks the motivation lecture associates with poorly designed goals?",
+    "answers": [
+      "Narrow focus, distorted risk preferences, unethical behavior, reduced collaboration, and reduced intrinsic motivation",
+      "Greater autonomy, stronger relatedness, and higher competence",
+      "Higher procedural justice and stronger calibration",
+      "More task identity and clearer feedback"
+    ],
+    "correct": 0,
+    "explanation": "The lecture warns that poorly designed goals can narrow attention, distort risk taking, encourage unethical behavior, damage collaboration, and reduce intrinsic motivation."
+  },
+  {
+    "chapter": 8,
+    "concept": "Performance vs Learning Goals",
+    "type": "Distinction",
+    "question": "Which statement best distinguishes performance goals from learning goals?",
+    "answers": [
+      "Performance goals target an outcome or standard; learning goals target strategies, skills, and knowledge",
+      "Performance goals build skills; learning goals only measure output",
+      "Performance goals are always superior on novel tasks",
+      "Learning goals should replace all performance goals"
+    ],
+    "correct": 0,
+    "explanation": "Performance goals emphasize achieving a result, while learning goals emphasize developing strategies, skills, and knowledge; complex or novel work often benefits from using both."
+  },
+  {
+    "chapter": 8,
+    "concept": "Platinum Rule",
+    "type": "Recognition",
+    "question": "What does the Platinum Rule recommend?",
+    "answers": [
+      "Treat others how they wish to be treated",
+      "Treat everyone exactly the way you want to be treated",
+      "Give every employee the same reward",
+      "Reward only measurable performance"
+    ],
+    "correct": 0,
+    "explanation": "The lecture states the Platinum Rule as treating others how they wish to be treated, emphasizing individual differences."
+  },
+  {
+    "chapter": 8,
+    "concept": "Money as Motivator",
+    "type": "Distinction",
+    "question": "Which statement best reflects the Motivation Part 1 lecture's treatment of money?",
+    "answers": [
+      "Pay matters, especially for basic needs and fairness, but additional pay has diminishing motivational returns and can undermine intrinsic motivation for some creative tasks",
+      "Money is always the strongest motivator regardless of the work",
+      "Pay has no relationship to motivation",
+      "Performance pay always increases intrinsic motivation"
+    ],
+    "correct": 0,
+    "explanation": "The lecture says pay matters but has diminishing motivational returns beyond basic needs and fairness, and performance-based pay can undermine intrinsic motivation for creative tasks."
+  },
+  {
+    "chapter": 8,
+    "concept": "Satisfaction vs Engagement",
+    "type": "Distinction",
+    "question": "Which statement best distinguishes job satisfaction from engagement?",
+    "answers": [
+      "A person can be satisfied without being cognitively absorbed, emotionally committed, and behaviorally energized by the work",
+      "Satisfaction and engagement are identical",
+      "Engagement predicts only turnover while satisfaction predicts performance",
+      "Satisfaction requires intrinsic motivation but engagement does not"
+    ],
+    "correct": 0,
+    "explanation": "The lecture warns that satisfaction alone does not mean an employee is energized or committed; engagement includes cognitive, emotional, and behavioral investment."
   }
 ]);
