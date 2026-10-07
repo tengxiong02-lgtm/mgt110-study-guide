@@ -149,3 +149,17 @@ button:disabled {
     font-size: 1.8rem;
   }
 }
+
+
+.menu-button {
+  width: auto;
+  margin: 0 0 16px 0;
+  padding: 9px 14px;
+  background: #374151;
+}
+
+/* Keep continuation controls immediately above the answer choices. */
+#nextButton {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
