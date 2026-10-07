@@ -574,5 +574,33 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "Psychological safety supports speaking up but does not by itself ensure accountability or execution."
+  },
+  {
+    "chapter": 12,
+    "concept": "Social Conformity",
+    "type": "Application",
+    "question": "A team member has serious doubts about a proposal but stays silent because everyone else appears to support it. Which process is most directly illustrated?",
+    "answers": [
+      "Social conformity",
+      "Free riding",
+      "Task conflict",
+      "Transactive memory"
+    ],
+    "correct": 0,
+    "explanation": "Social conformity involves changing behavior or withholding dissent to match perceived group expectations."
+  },
+  {
+    "chapter": 12,
+    "concept": "Affinity Mapping",
+    "type": "Application",
+    "question": "After independently generating many ideas, a team groups related ideas into themes before evaluating them. Which technique best fits this step?",
+    "answers": [
+      "Affinity mapping",
+      "Escalation of commitment",
+      "Risky shift",
+      "Social loafing"
+    ],
+    "correct": 0,
+    "explanation": "The study guide connects affinity mapping with team information processing as a way to organize generated information before evaluation and integration."
   }
 ]);
