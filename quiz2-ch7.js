@@ -294,5 +294,103 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "The chapter’s meeting guidance emphasizes clarity about next actions, individual owners, deadlines, and a closing review."
+  },
+  {
+    "chapter": 7,
+    "concept": "Channel Richness",
+    "type": "Application",
+    "question": "A manager must discuss a sensitive performance problem that is ambiguous and likely to require immediate questions. Which channel is generally most appropriate?",
+    "answers": [
+      "A rich, interactive channel such as face-to-face or live video",
+      "A mass email with no reply option",
+      "A static dashboard",
+      "A posted memo"
+    ],
+    "correct": 0,
+    "explanation": "Complex, sensitive, or contested issues generally call for richer channels that support immediate feedback and social cues."
+  },
+  {
+    "chapter": 7,
+    "concept": "Four-Question Proposal",
+    "type": "Framework",
+    "question": "Which sequence best reflects the study guide's four-question proposal structure?",
+    "answers": [
+      "Plan → Why recommended → Goals supported → Cost and risk",
+      "Hook → Story → Emotion → Ask",
+      "Problem → Punishment → Reward → Review",
+      "Audience → Channel → Feedback → Close"
+    ],
+    "correct": 0,
+    "explanation": "The study guide maps a proposal around the plan, why it is recommended, goals supported, and cost/risk."
+  },
+  {
+    "chapter": 7,
+    "concept": "Elevator Pitch",
+    "type": "Framework",
+    "question": "Which sequence best matches the elevator-pitch map in the study guide?",
+    "answers": [
+      "Problem → Proposal → Value → Ask",
+      "Ethos → Logos → Pathos → Story",
+      "Situation → Behavior → Impact → Inquiry",
+      "Strategy → Structure → Support → Style"
+    ],
+    "correct": 0,
+    "explanation": "The study guide's elevator pitch moves from the problem to the proposal, value, and a clear ask."
+  },
+  {
+    "chapter": 7,
+    "concept": "HICCC",
+    "type": "Framework",
+    "question": "Which sequence best represents HICCC for a persuasive presentation?",
+    "answers": [
+      "Hook → Introduction → Content → Conclusion → Call to action",
+      "Hear → Interpret → Compare → Clarify → Close",
+      "Headline → Issue → Cost → Choice → Commitment",
+      "Hook → Information → Criteria → Cost → Control"
+    ],
+    "correct": 0,
+    "explanation": "HICCC organizes a persuasive presentation as Hook, Introduction, Content, Conclusion, and Call to action."
+  },
+  {
+    "chapter": 7,
+    "concept": "Five S Framework",
+    "type": "Framework",
+    "question": "Which list contains the Five S framework for planning and delivering a presentation?",
+    "answers": [
+      "Strategy, Structure, Support, Style, Supplement",
+      "Simple, Specific, Social, Short, Supported",
+      "Situation, Sequence, Story, Solution, Summary",
+      "Scope, Standards, Systems, Safety, Speed"
+    ],
+    "correct": 0,
+    "explanation": "The study guide identifies Strategy, Structure, Support, Style, and Supplement as the Five S framework."
+  },
+  {
+    "chapter": 7,
+    "concept": "SBI-I Feedback",
+    "type": "Application",
+    "question": "A manager says, “During yesterday's client meeting, you interrupted the client three times. We missed key information, and I want to understand what was happening from your perspective.” Which feedback structure is being used?",
+    "answers": [
+      "Situation–Behavior–Impact–Inquiry",
+      "Ethos–Logos–Pathos",
+      "Problem–Proposal–Value–Ask",
+      "Strategy–Structure–Support–Style"
+    ],
+    "correct": 0,
+    "explanation": "SBI-I identifies the situation, observable behavior, specific impact, and then invites the recipient's perspective through inquiry."
+  },
+  {
+    "chapter": 7,
+    "concept": "Feedback Next Step",
+    "type": "Application",
+    "question": "After describing a specific behavior, its impact, and asking for the employee's perspective, what should effective corrective feedback add?",
+    "answers": [
+      "A clear, actionable next step",
+      "A vague warning with no expected behavior",
+      "More background before stating the issue",
+      "A public comparison with coworkers"
+    ],
+    "correct": 0,
+    "explanation": "The study guide emphasizes keeping the next step actionable after observable behavior, impact, and inquiry."
   }
 ]);
