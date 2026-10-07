@@ -294,5 +294,75 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "Healthy skepticism deliberately seeks disconfirming evidence, alternative explanations, and reasons the preferred conclusion could be wrong."
+  },
+  {
+    "chapter": 5,
+    "concept": "Availability Bias",
+    "type": "Application",
+    "question": "After hearing several recent news stories about cyberattacks, a manager greatly overestimates the likelihood that the same attack will happen to her firm. Which judgment shortcut is most evident?",
+    "answers": [
+      "Availability bias",
+      "Confirmation bias",
+      "Self-serving bias",
+      "Satisficing"
+    ],
+    "correct": 0,
+    "explanation": "Availability bias gives too much weight to information that is vivid or easy to recall."
+  },
+  {
+    "chapter": 5,
+    "concept": "Confirmation Bias",
+    "type": "Application",
+    "question": "A manager favors one vendor and searches only for reviews that support that choice while dismissing contrary evidence. Which bias is most evident?",
+    "answers": [
+      "Confirmation bias",
+      "Availability bias",
+      "Fundamental attribution error",
+      "Calibration"
+    ],
+    "correct": 0,
+    "explanation": "Confirmation bias favors information that supports an existing belief while discounting disconfirming evidence."
+  },
+  {
+    "chapter": 5,
+    "concept": "Overconfidence",
+    "type": "Application",
+    "question": "A manager is 95% certain a forecast will be accurate even though similar forecasts have often been wrong. Which judgment error is most evident?",
+    "answers": [
+      "Overconfidence",
+      "Satisficing",
+      "Brainwriting",
+      "Equifinality"
+    ],
+    "correct": 0,
+    "explanation": "Overconfidence occurs when confidence in a judgment exceeds its actual accuracy."
+  },
+  {
+    "chapter": 5,
+    "concept": "Escalation of Commitment",
+    "type": "Application",
+    "question": "A team keeps investing in a failing project mainly because it has already spent substantial time and money on it. Which bias is most evident?",
+    "answers": [
+      "Escalation of commitment",
+      "Anchoring",
+      "Availability bias",
+      "Self-serving bias"
+    ],
+    "correct": 0,
+    "explanation": "Escalation of commitment is continued investment in a failing course of action because of prior commitments or sunk costs."
+  },
+  {
+    "chapter": 5,
+    "concept": "Self-Serving Bias",
+    "type": "Application",
+    "question": "A manager credits strong quarterly results to her leadership but blames poor results entirely on the economy. Which attribution error is most evident?",
+    "answers": [
+      "Self-serving bias",
+      "Fundamental attribution error",
+      "Representativeness",
+      "Anchoring"
+    ],
+    "correct": 0,
+    "explanation": "Self-serving bias attributes favorable outcomes to oneself while assigning unfavorable outcomes to external causes."
   }
 ]);
