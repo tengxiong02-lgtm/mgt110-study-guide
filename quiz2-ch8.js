@@ -308,5 +308,257 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "The chapter recommends an integrated approach that accounts for individual differences, work context, goals, expectancy beliefs, valued rewards, and fairness."
+  },
+  {
+    "chapter": 8,
+    "concept": "Engagement",
+    "type": "Recognition",
+    "question": "Which description best matches employee engagement?",
+    "answers": [
+      "Cognitive absorption, emotional commitment, and behavioral energy directed toward work",
+      "Being satisfied enough to avoid leaving",
+      "Receiving high compensation",
+      "Working long hours regardless of purpose"
+    ],
+    "correct": 0,
+    "explanation": "The study guide defines engagement as cognitive absorption, emotional commitment, and behavioral energy directed toward work."
+  },
+  {
+    "chapter": 8,
+    "concept": "Intrinsic vs Extrinsic Motivation",
+    "type": "Distinction",
+    "question": "An employee works on a difficult project because the work is meaningful and provides mastery, not because of a bonus. What is the primary source of motivation?",
+    "answers": [
+      "Intrinsic motivation",
+      "Extrinsic motivation",
+      "Negative reinforcement",
+      "Instrumentality"
+    ],
+    "correct": 0,
+    "explanation": "Intrinsic motivation comes from interest, meaning, growth, mastery, or the work itself."
+  },
+  {
+    "chapter": 8,
+    "concept": "Organizational Justice",
+    "type": "Framework",
+    "question": "Which three forms of organizational justice are emphasized in the course material?",
+    "answers": [
+      "Distributive, procedural, and interpersonal justice",
+      "Economic, legal, and social justice",
+      "Input, outcome, and referent justice",
+      "Autonomy, competence, and relatedness"
+    ],
+    "correct": 0,
+    "explanation": "Organizational justice includes fairness of outcomes, fairness of decision processes, and fairness in interpersonal treatment."
+  },
+  {
+    "chapter": 8,
+    "concept": "Procedural Justice",
+    "type": "Application",
+    "question": "Two employees receive different bonuses, but both believe the criteria were consistent, transparent, and unbiased. Which form of justice most directly explains acceptance of the process?",
+    "answers": [
+      "Procedural justice",
+      "Distributive justice",
+      "Interpersonal justice",
+      "Equity restoration"
+    ],
+    "correct": 0,
+    "explanation": "Procedural justice concerns whether the process used to make a decision is fair, consistent, transparent, and unbiased."
+  },
+  {
+    "chapter": 8,
+    "concept": "Goal Setting",
+    "type": "Framework",
+    "question": "According to goal-setting theory, which combination is most likely to focus effort effectively?",
+    "answers": [
+      "Specific and challenging goals with feedback and commitment",
+      "Vague goals with no deadline",
+      "Easy goals with no feedback",
+      "Goals imposed without explanation or control"
+    ],
+    "correct": 0,
+    "explanation": "The study guide emphasizes specific and challenging goals supported by feedback and commitment."
+  },
+  {
+    "chapter": 8,
+    "concept": "SMART Goals",
+    "type": "Framework",
+    "question": "Which list correctly identifies the SMART goal framework?",
+    "answers": [
+      "Specific, Measurable, Achievable, Relevant, Time-bound",
+      "Strategic, Motivating, Accountable, Rewarded, Timely",
+      "Simple, Meaningful, Accurate, Realistic, Tested",
+      "Specific, Managed, Assigned, Ranked, Tracked"
+    ],
+    "correct": 0,
+    "explanation": "SMART stands for Specific, Measurable, Achievable, Relevant, and Time-bound."
+  },
+  {
+    "chapter": 8,
+    "concept": "Goals Gone Wrong",
+    "type": "Application",
+    "question": "A company says it values collaboration but rewards only individual output, causing employees to hoard information. What problem does this illustrate?",
+    "answers": [
+      "Rewarding one behavior while expecting another",
+      "Low valence",
+      "Low autonomy",
+      "Extinction"
+    ],
+    "correct": 0,
+    "explanation": "Goals and rewards can distort behavior when the organization rewards A while expecting B."
+  },
+  {
+    "chapter": 8,
+    "concept": "Learning Goals",
+    "type": "Application",
+    "question": "A team is tackling a novel task with no proven method. Which goal is most appropriate to pair with its performance target?",
+    "answers": [
+      "A learning goal focused on testing strategies and building capability",
+      "A narrower output target only",
+      "A punishment threshold",
+      "A goal with no feedback"
+    ],
+    "correct": 0,
+    "explanation": "The motivation lecture recommends pairing performance goals with learning goals, especially when tasks are complex or new."
+  },
+  {
+    "chapter": 8,
+    "concept": "Maslow",
+    "type": "Distinction",
+    "question": "What is the course's main caution about Maslow's hierarchy of needs?",
+    "answers": [
+      "Research does not support a fixed universal hierarchy",
+      "It excludes basic needs",
+      "It is the strongest modern motivation theory",
+      "It says multiple needs can never operate together"
+    ],
+    "correct": 0,
+    "explanation": "The lecture treats Maslow as a useful vocabulary but notes that research does not confirm its fixed hierarchical order."
+  },
+  {
+    "chapter": 8,
+    "concept": "Relatedness",
+    "type": "Application",
+    "question": "A remote employee feels disconnected from coworkers and begins disengaging despite having autonomy and adequate skills. Which Self-Determination Theory need is most clearly unmet?",
+    "answers": [
+      "Relatedness",
+      "Competence",
+      "Autonomy",
+      "Valence"
+    ],
+    "correct": 0,
+    "explanation": "Relatedness is the need to feel connected, cared about, and that one belongs with others."
+  },
+  {
+    "chapter": 8,
+    "concept": "Herzberg Hygiene Factors",
+    "type": "Distinction",
+    "question": "Which item is a hygiene factor in Herzberg's two-factor theory?",
+    "answers": [
+      "Salary and working conditions",
+      "Achievement",
+      "Responsibility",
+      "Growth through challenging work"
+    ],
+    "correct": 0,
+    "explanation": "Hygiene factors are baseline work conditions such as salary, security, policies, supervision, relationships, and working conditions."
+  },
+  {
+    "chapter": 8,
+    "concept": "Herzberg Motivation Factors",
+    "type": "Distinction",
+    "question": "Which item is a motivation factor in Herzberg's two-factor theory?",
+    "answers": [
+      "Achievement and meaningful responsibility",
+      "Company policy",
+      "Physical workspace",
+      "Job security"
+    ],
+    "correct": 0,
+    "explanation": "Motivation factors are intrinsic to the work and include achievement, recognition, responsibility, meaningful work, growth, and advancement."
+  },
+  {
+    "chapter": 8,
+    "concept": "Job Characteristics Model",
+    "type": "Framework",
+    "question": "Which set contains the five core job dimensions in the Job Characteristics Model?",
+    "answers": [
+      "Skill variety, task identity, task significance, autonomy, feedback",
+      "Achievement, power, affiliation, equity, feedback",
+      "Pay, security, supervision, status, policy",
+      "Expectancy, instrumentality, valence, equity, goals"
+    ],
+    "correct": 0,
+    "explanation": "The Job Characteristics Model uses skill variety, task identity, task significance, autonomy, and feedback as its five core job dimensions."
+  },
+  {
+    "chapter": 8,
+    "concept": "Job Characteristics Model",
+    "type": "Framework",
+    "question": "Which set contains the three critical psychological states in the Job Characteristics Model?",
+    "answers": [
+      "Experienced meaningfulness, experienced responsibility, knowledge of results",
+      "Autonomy, competence, relatedness",
+      "Expectancy, instrumentality, valence",
+      "Achievement, affiliation, power"
+    ],
+    "correct": 0,
+    "explanation": "The model links job dimensions to experienced meaningfulness, experienced responsibility, and knowledge of results."
+  },
+  {
+    "chapter": 8,
+    "concept": "Job Enrichment",
+    "type": "Application",
+    "question": "A manager gives an employee greater authority to plan and control work that was previously reserved for a supervisor. Which job-enrichment technique is this?",
+    "answers": [
+      "Vertically loading the job",
+      "Extinction",
+      "Cognitive crafting",
+      "Reducing task identity"
+    ],
+    "correct": 0,
+    "explanation": "Vertical loading increases responsibility and control by moving authority downward into the job."
+  },
+  {
+    "chapter": 8,
+    "concept": "Task Crafting",
+    "type": "Application",
+    "question": "An employee changes the number, scope, or approach of tasks to use a strength more often. Which form of job crafting is this?",
+    "answers": [
+      "Task crafting",
+      "Relational crafting",
+      "Cognitive crafting",
+      "Procedural justice"
+    ],
+    "correct": 0,
+    "explanation": "Task crafting changes the number, scope, or approach to work tasks."
+  },
+  {
+    "chapter": 8,
+    "concept": "Relational Crafting",
+    "type": "Application",
+    "question": "An employee intentionally changes who she interacts with at work so the job feels more connected and useful. Which form of job crafting is this?",
+    "answers": [
+      "Relational crafting",
+      "Task crafting",
+      "Cognitive crafting",
+      "Job rotation"
+    ],
+    "correct": 0,
+    "explanation": "Relational crafting changes the pattern or quality of work relationships."
+  },
+  {
+    "chapter": 8,
+    "concept": "Cognitive Crafting",
+    "type": "Application",
+    "question": "A hospital custodian begins viewing the job as helping create a safe healing environment rather than simply cleaning rooms. Which form of job crafting is this?",
+    "answers": [
+      "Cognitive crafting",
+      "Task crafting",
+      "Relational crafting",
+      "Positive reinforcement"
+    ],
+    "correct": 0,
+    "explanation": "Cognitive crafting changes how an employee interprets the purpose or meaning of the work."
   }
 ]);
