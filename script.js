@@ -4054,6 +4054,8 @@ let currentQuestionIndex = 0;
 let score = 0;
 let wrongAnswers = [];
 let answeredQuestions = [];
+let currentQuizTitle = "";
+const QUIZ_PROGRESS_KEY = "mgt110QuizProgress";
 
 function startChapter(chapter) {
   currentQuestions = questions.filter(
@@ -4098,16 +4100,25 @@ function startQuizFour() {
   startQuiz("Quiz 4 — Mixed Practice");
 }
 
-function startQuiz(title) {
+function startQuiz(title, restoreState = null) {
   if (currentQuestions.length === 0) {
     alert("No questions have been added for this chapter yet.");
     return;
   }
 
-  currentQuestionIndex = 0;
-  score = 0;
-  wrongAnswers = [];
-  answeredQuestions = [];
+  currentQuizTitle = title;
+
+  if (restoreState) {
+    currentQuestionIndex = restoreState.currentQuestionIndex;
+    score = restoreState.score;
+    wrongAnswers = restoreState.wrongAnswers || [];
+    answeredQuestions = restoreState.answeredQuestions || [];
+  } else {
+    currentQuestionIndex = 0;
+    score = 0;
+    wrongAnswers = [];
+    answeredQuestions = [];
+  }
 
   document.getElementById("menu").classList.add("hidden");
   document.getElementById("results").classList.add("hidden");
@@ -4117,6 +4128,7 @@ function startQuiz(title) {
   document.getElementById("reviewArea").innerHTML = "";
 
   showQuestion();
+  saveProgress();
 }
 
 function showQuestion() {
@@ -4182,6 +4194,8 @@ function selectAnswer(selectedIndex) {
   feedbackBox.classList.remove("hidden");
   document.getElementById("nextButton").classList.remove("hidden");
 
+  saveProgress();
+
   document
     .querySelectorAll("#answers button")
     .forEach(button => {
@@ -4191,6 +4205,7 @@ function selectAnswer(selectedIndex) {
 
 function nextQuestion() {
   currentQuestionIndex++;
+  saveProgress();
 
   if (currentQuestionIndex < currentQuestions.length) {
     showQuestion();
@@ -4200,6 +4215,7 @@ function nextQuestion() {
 }
 
 function showResults() {
+  clearProgress();
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("results").classList.remove("hidden");
 
@@ -4297,12 +4313,56 @@ function reviewAnswers() {
 }
 
 function backToMenu() {
+  saveProgress();
   document.getElementById("quiz").classList.add("hidden");
   document.getElementById("results").classList.add("hidden");
   document.getElementById("menu").classList.remove("hidden");
 
   document.getElementById("reviewArea").innerHTML = "";
 }
+
+function saveProgress() {
+  if (!currentQuestions.length || !currentQuizTitle) return;
+
+  const state = {
+    title: currentQuizTitle,
+    questions: currentQuestions,
+    currentQuestionIndex,
+    score,
+    wrongAnswers,
+    answeredQuestions
+  };
+
+  localStorage.setItem(QUIZ_PROGRESS_KEY, JSON.stringify(state));
+}
+
+function clearProgress() {
+  localStorage.removeItem(QUIZ_PROGRESS_KEY);
+}
+
+function restoreProgress() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(QUIZ_PROGRESS_KEY));
+    if (!saved || !saved.questions?.length) return;
+
+    const resume = confirm(
+      `Resume ${saved.title} at question ${saved.currentQuestionIndex + 1} of ${saved.questions.length}?`
+    );
+
+    if (!resume) {
+      clearProgress();
+      return;
+    }
+
+    currentQuestions = saved.questions;
+    startQuiz(saved.title, saved);
+  } catch (error) {
+    clearProgress();
+  }
+}
+
+window.addEventListener("beforeunload", saveProgress);
+window.addEventListener("DOMContentLoaded", restoreProgress);
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
