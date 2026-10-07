@@ -434,5 +434,145 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "Agreeing in advance on consequences for free-riding creates spoken norms and a common accountability reference point."
+  },
+  {
+    "chapter": 12,
+    "concept": "Psychological Safety",
+    "type": "Distinction",
+    "question": "Which statement best describes psychological safety?",
+    "answers": [
+      "A shared belief that people can speak up with questions, concerns, ideas, or mistakes without humiliation or punishment",
+      "A team climate with no disagreement",
+      "A guarantee that poor performance has no consequences",
+      "A requirement that everyone feels comfortable all the time"
+    ],
+    "correct": 0,
+    "explanation": "Psychological safety supports interpersonal risk taking; it is not the same as comfort, agreement, or lack of accountability."
+  },
+  {
+    "chapter": 12,
+    "concept": "Transactive Memory",
+    "type": "Recognition",
+    "question": "A team knows exactly which member has expertise in finance, technology, operations, and customer research and routes questions accordingly. What does this illustrate?",
+    "answers": [
+      "Transactive memory",
+      "Social loafing",
+      "Risky shift",
+      "Relationship conflict"
+    ],
+    "correct": 0,
+    "explanation": "Transactive memory is shared knowledge about who knows or owns what within the team."
+  },
+  {
+    "chapter": 12,
+    "concept": "Punctuated Equilibrium",
+    "type": "Application",
+    "question": "A project team makes little progress early, sharply changes its approach at the midpoint, and then works intensely toward the deadline. Which development pattern best fits?",
+    "answers": [
+      "Punctuated equilibrium",
+      "Linear forming-storming-norming-performing only",
+      "Social loafing",
+      "Abilene paradox"
+    ],
+    "correct": 0,
+    "explanation": "Punctuated equilibrium predicts early inertia, a midpoint transition, and a renewed final phase."
+  },
+  {
+    "chapter": 12,
+    "concept": "Task Conflict",
+    "type": "Distinction",
+    "question": "Team members disagree strongly about evidence and which solution is best, but the disagreement remains focused on the work. What type of conflict is this?",
+    "answers": [
+      "Task conflict",
+      "Process conflict",
+      "Relationship conflict",
+      "Social loafing"
+    ],
+    "correct": 0,
+    "explanation": "Task conflict concerns ideas, evidence, and the work itself."
+  },
+  {
+    "chapter": 12,
+    "concept": "Process Conflict",
+    "type": "Distinction",
+    "question": "Team members agree on the goal but argue about who owns each task, deadlines, and how the work should be completed. What type of conflict is this?",
+    "answers": [
+      "Process conflict",
+      "Task conflict",
+      "Relationship conflict",
+      "Groupthink"
+    ],
+    "correct": 0,
+    "explanation": "Process conflict concerns roles, ownership, timing, and methods."
+  },
+  {
+    "chapter": 12,
+    "concept": "Relationship Conflict",
+    "type": "Distinction",
+    "question": "A disagreement about a project turns into personal attacks and resentment between members. What type of conflict is this?",
+    "answers": [
+      "Relationship conflict",
+      "Task conflict",
+      "Process conflict",
+      "Productive conflict"
+    ],
+    "correct": 0,
+    "explanation": "Relationship conflict occurs when disagreement becomes personal or identity based."
+  },
+  {
+    "chapter": 12,
+    "concept": "Team Information Process",
+    "type": "Framework",
+    "question": "Which sequence best matches the study guide's team information process?",
+    "answers": [
+      "Generate → Explore → Evaluate → Integrate",
+      "Form → Decide → Reward → Exit",
+      "Speak → Vote → Assign → Close",
+      "Collect → Punish → Review → Repeat"
+    ],
+    "correct": 0,
+    "explanation": "The study guide organizes team information processing as Generate, Explore, Evaluate, and Integrate."
+  },
+  {
+    "chapter": 12,
+    "concept": "Poor Information Sharing",
+    "type": "Application",
+    "question": "A team repeatedly discusses facts everyone already knows while one member's unique information never enters the discussion. What team problem is most evident?",
+    "answers": [
+      "Poor information sharing",
+      "Task identity",
+      "Positive reinforcement",
+      "Punctuated equilibrium"
+    ],
+    "correct": 0,
+    "explanation": "Teams can over-discuss shared information while failing to surface unique information held by individual members."
+  },
+  {
+    "chapter": 12,
+    "concept": "Free Riding",
+    "type": "Distinction",
+    "question": "A member deliberately contributes less because he expects to receive the same team outcome regardless of his effort. What is this?",
+    "answers": [
+      "Free riding",
+      "Social loafing",
+      "Task conflict",
+      "Psychological safety"
+    ],
+    "correct": 0,
+    "explanation": "Free riding is deliberate under-contribution while expecting to share in the team's outcome; social loafing may be less intentional."
+  },
+  {
+    "chapter": 12,
+    "concept": "Psychological Safety and Accountability",
+    "type": "Application",
+    "question": "A team openly admits mistakes and challenges ideas, but repeatedly misses deadlines because nobody follows through. What is the best diagnosis?",
+    "answers": [
+      "Psychological safety may be present, but accountability is weak",
+      "Psychological safety is absent because deadlines were missed",
+      "The team has too much task conflict",
+      "The team is necessarily in the forming stage"
+    ],
+    "correct": 0,
+    "explanation": "Psychological safety supports speaking up but does not by itself ensure accountability or execution."
   }
 ]);
