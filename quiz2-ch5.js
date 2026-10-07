@@ -364,5 +364,61 @@ questions.push(...[
     ],
     "correct": 0,
     "explanation": "Self-serving bias attributes favorable outcomes to oneself while assigning unfavorable outcomes to external causes."
+  },
+  {
+    "chapter": 5,
+    "concept": "Reframing — Paraphrase",
+    "type": "Application",
+    "question": "A manager restates “Employees do not care about quality” as “Our current process may not make quality expectations clear or actionable.” Which reframing method is being used?",
+    "answers": [
+      "Paraphrase",
+      "180° turnaround",
+      "Broaden",
+      "Redirect"
+    ],
+    "correct": 0,
+    "explanation": "Paraphrasing restates the problem in different words to expose assumptions and alternative interpretations."
+  },
+  {
+    "chapter": 5,
+    "concept": "Reframing — Broaden",
+    "type": "Application",
+    "question": "A team changes “How can we reduce checkout errors?” to “How can we improve the entire customer checkout experience?” Which reframing method is being used?",
+    "answers": [
+      "Broaden",
+      "Paraphrase",
+      "180° turnaround",
+      "Redirect"
+    ],
+    "correct": 0,
+    "explanation": "Broadening expands the boundaries of the problem so the team examines a wider system and additional causes or alternatives."
+  },
+  {
+    "chapter": 5,
+    "concept": "Mental Models",
+    "type": "Recognition",
+    "question": "A manager's assumptions about how customers behave shape which causes and solutions she notices. In systems thinking, these underlying assumptions are best described as:",
+    "answers": [
+      "Mental models",
+      "Weighted rankings",
+      "Confidence estimates",
+      "After Action Reviews"
+    ],
+    "correct": 0,
+    "explanation": "Mental models are underlying beliefs and assumptions that shape how people interpret a system and its problems."
+  },
+  {
+    "chapter": 5,
+    "concept": "Confidence Estimates",
+    "type": "Application",
+    "question": "Before learning the answer, a manager records both her forecast and how certain she is, then later compares confidence with actual accuracy. What is she assessing?",
+    "answers": [
+      "Confidence estimates and calibration",
+      "Satisficing",
+      "Equifinality",
+      "Brainstorming"
+    ],
+    "correct": 0,
+    "explanation": "Confidence estimates make certainty explicit; calibration compares expressed confidence with actual accuracy over time."
   }
 ]);
