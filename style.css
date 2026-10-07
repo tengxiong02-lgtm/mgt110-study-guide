@@ -163,3 +163,18 @@ button:disabled {
   margin-top: 16px;
   margin-bottom: 8px;
 }
+
+
+/* Compact top navigation button. */
+.quiz-card .menu-button {
+  width: auto;
+  display: inline-block;
+  margin: 0 0 16px 0;
+  padding: 7px 11px;
+  font-size: 13px;
+}
+
+/* Continue action appears directly under the question, before feedback/answers. */
+#nextButton {
+  margin: 12px 0 8px;
+}
