@@ -422,3 +422,14 @@ questions.push(...[
     "explanation": "The chapter advocates systematic ethical analysis and, when time is constrained, useful shortcut tests that still force consideration of consequences and principles."
   }
 ]);
+
+// Study Guide 3: justice versus mercy and moral capacity.
+questions.push({
+  chapter: 6,
+  concept: "Justice versus Mercy",
+  type: "Application",
+  question: "A supervisor weighs a standard penalty against compassion for an employee facing an unusual hardship. Which ethical tension applies?",
+  answers: ["Justice versus mercy", "Truth versus loyalty", "Individual versus community", "Short-term versus long-term"],
+  correct: 0,
+  explanation: "Justice emphasizes consistent standards, while mercy considers compassion and circumstances."
+});
