@@ -620,3 +620,18 @@ questions.push({
  correct: 0,
  explanation: "The Vroom-Jago model considers information, decision quality, and acceptance when selecting participation."
 });
+
+questions.push({
+ chapter: 11, concept: "Transformational Leadership", type: "Recognition",
+ question: "Which set contains the four components of transformational leadership?",
+ answers: ["Idealized influence, inspirational motivation, intellectual stimulation, individualized consideration", "Reward, punishment, avoidance, surveillance", "Planning, budgeting, staffing, reporting", "Expert, legitimate, coercive, reward power"],
+ correct: 0,
+ explanation: "The four components describe role modeling, inspiring, challenging thinking, and individual support."
+});
+questions.push({
+ chapter: 11, concept: "LMX and Fairness", type: "Application",
+ question: "A manager gives only favored employees autonomy, information, and mentoring. What concern is most relevant?",
+ answers: ["Unequal exchange relationships may produce perceptions of favoritism", "LMX prohibits trust between managers and employees", "All employees must perform identical tasks", "Mentoring cannot affect fairness"],
+ correct: 0,
+ explanation: "Leader-member exchange differences can affect access to opportunities and perceived fairness."
+});
