@@ -635,3 +635,62 @@ questions.push({
  correct: 0,
  explanation: "Leader-member exchange differences can affect access to opportunities and perceived fairness."
 });
+
+questions.push(...[
+  {
+    "chapter": 11,
+    "concept": "Behavioral Leadership",
+    "type": "Application",
+    "question": "A manager studies how leaders clarify assignments and provide interpersonal support. Which approach focuses on these observable actions?",
+    "answers": [
+      "Behavioral approach",
+      "Trait approach",
+      "LMX alone",
+      "Virtue ethics"
+    ],
+    "correct": 0,
+    "explanation": "The behavioral approach focuses on what leaders do."
+  },
+  {
+    "chapter": 11,
+    "concept": "Contingency Leadership",
+    "type": "Application",
+    "question": "A directive style helps inexperienced staff but frustrates experts. Which approach best explains this?",
+    "answers": [
+      "Contingency or situational approach",
+      "Trait approach alone",
+      "A fixed universal style",
+      "Distributive justice"
+    ],
+    "correct": 0,
+    "explanation": "Contingency approaches consider the fit between leadership and circumstances."
+  },
+  {
+    "chapter": 11,
+    "concept": "Task and Relationship Behaviors",
+    "type": "Application",
+    "question": "A manager clarifies deadlines and also encourages a nervous employee. Which two behaviors are combined?",
+    "answers": [
+      "Task direction and relationship support",
+      "Competing and avoiding",
+      "Trait and moral intensity",
+      "Mediation and bargaining"
+    ],
+    "correct": 0,
+    "explanation": "Task behavior structures work while relationship behavior supports people."
+  },
+  {
+    "chapter": 11,
+    "concept": "Leadership and Management",
+    "type": "Distinction",
+    "question": "Which comparison best distinguishes leadership and management?",
+    "answers": [
+      "Management coordinates work; leadership influences direction and commitment, with overlap",
+      "Management never involves people",
+      "Leadership never requires planning",
+      "They are unrelated functions"
+    ],
+    "correct": 0,
+    "explanation": "Leadership and management have distinct emphases but overlapping responsibilities."
+  }
+]);
