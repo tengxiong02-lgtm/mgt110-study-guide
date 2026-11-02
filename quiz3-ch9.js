@@ -580,3 +580,104 @@ questions.push(...[
     "explanation": "Mediation starts with a setting that enables constructive communication."
   }
 ]);
+
+questions.push(...[
+  {
+    "chapter": 9,
+    "concept": "Difficult Conversations: Feelings",
+    "type": "Application",
+    "question": "A coworker feels dismissed during a disagreement. Which response best addresses the feelings conversation?",
+    "answers": [
+      "Name the feeling without accusation and invite the other person's perspective",
+      "Insist emotions are irrelevant",
+      "Assume malicious intent",
+      "Determine who started the dispute"
+    ],
+    "correct": 0,
+    "explanation": "The feelings conversation explores emotions without blame."
+  },
+  {
+    "chapter": 9,
+    "concept": "Difficult Conversations: Identity",
+    "type": "Application",
+    "question": "An employee sees criticism of one assignment as proof that they are incompetent. Which conversation layer is most salient?",
+    "answers": [
+      "Identity",
+      "BATNA",
+      "Process design",
+      "Distributive justice"
+    ],
+    "correct": 0,
+    "explanation": "The identity conversation explores what the situation threatens about one's self-image."
+  },
+  {
+    "chapter": 9,
+    "concept": "Difficult Conversations: Contribution",
+    "type": "Application",
+    "question": "Which question best explores contribution rather than blame after a missed deadline?",
+    "answers": [
+      "How did each of our actions contribute to the delay?",
+      "Which person is entirely at fault?",
+      "Who intended the worst outcome?",
+      "Who must apologize first?"
+    ],
+    "correct": 0,
+    "explanation": "Contribution examines each party's role in creating the problem."
+  },
+  {
+    "chapter": 9,
+    "concept": "Salary Expectations",
+    "type": "Application",
+    "question": "A recruiter asks for a minimum salary before describing the complete role. Which response best keeps the conversation open?",
+    "answers": [
+      "Could we review the responsibilities and compensation range first?",
+      "My first number is my final bottom line.",
+      "I accept any amount.",
+      "I will not discuss compensation."
+    ],
+    "correct": 0,
+    "explanation": "Constructive deflection avoids setting a premature salary floor."
+  },
+  {
+    "chapter": 9,
+    "concept": "Salary Offer Acknowledgment",
+    "type": "Application",
+    "question": "Why can responding 'OK' to an initial salary offer be risky?",
+    "answers": [
+      "It may be interpreted as acceptance",
+      "It guarantees a higher salary",
+      "It strengthens a BATNA automatically",
+      "It requires the employer to add benefits"
+    ],
+    "correct": 0,
+    "explanation": "The guide cautions that an acknowledgment can be mistaken for agreement."
+  },
+  {
+    "chapter": 9,
+    "concept": "Integrated Project Scenario",
+    "type": "Application",
+    "question": "A project team misses deadlines and employees blame one another. What should the manager do first?",
+    "answers": [
+      "Review workload, deadlines, and handoffs while hearing both accounts",
+      "Punish the loudest employee",
+      "Change every deadline without investigation",
+      "Require immediate compromise"
+    ],
+    "correct": 0,
+    "explanation": "Fact finding and understanding both stories precede an appropriate intervention."
+  },
+  {
+    "chapter": 9,
+    "concept": "Integrated Scenario Evaluation",
+    "type": "Application",
+    "question": "After revising deadlines and responsibilities, what evidence best shows whether the solution worked?",
+    "answers": [
+      "On-time delivery, work quality, and recurring disputes",
+      "Whether someone admitted fault",
+      "Meeting duration",
+      "Whether tasks were identical"
+    ],
+    "correct": 0,
+    "explanation": "Measure project outcomes and conflict patterns rather than appearances."
+  }
+]);
