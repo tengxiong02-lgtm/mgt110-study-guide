@@ -4108,6 +4108,10 @@ function startQuiz(title, restoreState = null) {
 
   currentQuizTitle = title;
 
+  if (!restoreState) {
+    currentQuestions = shuffleArray(currentQuestions.map(randomizeQuestionAnswers));
+  }
+
   if (restoreState) {
     currentQuestionIndex = restoreState.currentQuestionIndex;
     score = restoreState.score;
@@ -4366,10 +4370,23 @@ window.addEventListener("DOMContentLoaded", restoreProgress);
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(
-      Math.random() * (i + 1)
-    );
-
+    const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
+  return array;
+}
+
+// Shuffle each question's choices and keep the correct answer linked to its text.
+// A fresh quiz uses a new order; restored sessions retain their saved order.
+function randomizeQuestionAnswers(question) {
+  const choices = question.answers.map((answer, index) => ({
+    answer,
+    isCorrect: index === question.correct
+  }));
+  shuffleArray(choices);
+  return {
+    ...question,
+    answers: choices.map(choice => choice.answer),
+    correct: choices.findIndex(choice => choice.isCorrect)
+  };
 }
