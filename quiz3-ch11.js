@@ -604,3 +604,19 @@ questions.push(...[
     "explanation": "The development plan includes initial diagnosis, assessment, design, implementation, support, and periodic evaluation."
   }
 ]);
+
+// Study Guide 3 leadership: task readiness and employee participation.
+questions.push({
+ chapter: 11, concept: "Follower Readiness", type: "Application",
+ question: "An enthusiastic employee is capable overall but new to a particular assignment. What should the leader assess before deciding how much guidance to provide?",
+ answers: ["Competence and confidence for the specific task", "Length of employment alone", "Personal friendship with the leader", "Whether everyone should receive identical instructions"],
+ correct: 0,
+ explanation: "Situational leadership considers task-specific readiness when balancing direction and support."
+});
+questions.push({
+ chapter: 11, concept: "Vroom-Jago", type: "Application",
+ question: "Employees have essential information about a decision and their commitment will determine implementation success. What should the leader consider?",
+ answers: ["Including employees in the decision process", "Deciding alone regardless of information", "Avoiding the decision", "Withholding information until implementation"],
+ correct: 0,
+ explanation: "The Vroom-Jago model considers information, decision quality, and acceptance when selecting participation."
+});
