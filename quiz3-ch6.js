@@ -433,3 +433,18 @@ questions.push({
   correct: 0,
   explanation: "Justice emphasizes consistent standards, while mercy considers compassion and circumstances."
 });
+
+questions.push({
+ chapter: 6, concept: "Moral Capacity", type: "Application",
+ question: "An employee believes reporting wrongdoing is right but fears losing essential income. What does this illustrate?",
+ answers: ["Recognizing a duty and having the capacity to act can differ", "The employee has no ethical obligations", "Fear makes wrongdoing ethical", "Only the outcome matters"],
+ correct: 0,
+ explanation: "Real circumstances and obligations can constrain a person's ability to act on an ethical judgment."
+});
+questions.push({
+ chapter: 6, concept: "Equality versus Equity", type: "Distinction",
+ question: "A manager distributes identical training budgets despite very different job requirements. Which distinction matters?",
+ answers: ["Equality uses identical allocations while equity considers relevant differences", "Equality always guarantees a fair outcome", "Equity means identical allocation", "Neither concerns distributive justice"],
+ correct: 0,
+ explanation: "Equality emphasizes equal shares; equity evaluates relevant needs or contributions."
+});
