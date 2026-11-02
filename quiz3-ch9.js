@@ -492,3 +492,91 @@ questions.push(...[
     "explanation": "Clarifying the agreement removes ambiguity, defines roles, and increases the likelihood that the resolution will hold."
   }
 ]);
+
+// Supplemental practice aligned with MGT 110 Study Guide 3 (2026).
+questions.push(...[
+  {
+    "chapter": 9,
+    "concept": "Process Conflict",
+    "type": "Application",
+    "question": "A team agrees on its goal but disagrees about who should perform each step. Which conflict type is this?",
+    "answers": [
+      "Process conflict",
+      "Task conflict",
+      "Relationship conflict",
+      "Personal conflict"
+    ],
+    "correct": 0,
+    "explanation": "Process conflict concerns work methods, responsibilities, and coordination."
+  },
+  {
+    "chapter": 9,
+    "concept": "Third Story",
+    "type": "Application",
+    "question": "Two coworkers blame each other for delays. Which opening best reflects the neutral third-story approach?",
+    "answers": [
+      "We seem to have different accounts of the delay; can we compare what happened?",
+      "You caused the delay.",
+      "I know my intentions were good.",
+      "Let's determine who is at fault first."
+    ],
+    "correct": 0,
+    "explanation": "The third story describes differing perspectives without assigning blame."
+  },
+  {
+    "chapter": 9,
+    "concept": "Salary Negotiation",
+    "type": "Application",
+    "question": "Why request an employment offer in writing before negotiating?",
+    "answers": [
+      "To review terms and prepare a justified response",
+      "To guarantee a raise",
+      "To avoid evaluating benefits",
+      "To eliminate the need for a BATNA"
+    ],
+    "correct": 0,
+    "explanation": "Written terms enable preparation and evaluation of the full package."
+  },
+  {
+    "chapter": 9,
+    "concept": "Logrolling",
+    "type": "Application",
+    "question": "A candidate trades an earlier start date for tuition assistance because each side values different issues. What is this?",
+    "answers": [
+      "Logrolling",
+      "Compromising on one number",
+      "Avoiding",
+      "Mediation"
+    ],
+    "correct": 0,
+    "explanation": "Logrolling trades concessions across differently valued issues."
+  },
+  {
+    "chapter": 9,
+    "concept": "Difficult Conversations",
+    "type": "Application",
+    "question": "Which response best distinguishes impact from intent?",
+    "answers": [
+      "I did not intend harm, and I understand my words had a negative impact.",
+      "My good intentions mean no harm occurred.",
+      "Your reaction proves I intended harm.",
+      "We should avoid discussing feelings."
+    ],
+    "correct": 0,
+    "explanation": "A difficult conversation can recognize both intention and impact."
+  },
+  {
+    "chapter": 9,
+    "concept": "Mediation",
+    "type": "Application",
+    "question": "Two parties are shouting over each other. What should a mediator prioritize first?",
+    "answers": [
+      "Stabilize the setting and establish ground rules",
+      "Write the agreement",
+      "Demand concessions",
+      "Determine punishment"
+    ],
+    "correct": 0,
+    "explanation": "Mediation starts with a setting that enables constructive communication."
+  }
+]);
