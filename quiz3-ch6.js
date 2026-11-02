@@ -448,3 +448,119 @@ questions.push({
  correct: 0,
  explanation: "Equality emphasizes equal shares; equity evaluates relevant needs or contributions."
 });
+
+// Additional application questions mapped to Study Guide 3 prompts.
+questions.push(...[
+  {
+    "chapter": 6,
+    "concept": "Ethical Decision Process: Facts",
+    "type": "Application",
+    "question": "A manager hears an allegation of unfair scheduling but has not checked the records. What is the appropriate first step?",
+    "answers": [
+      "Gather the facts",
+      "Check instincts",
+      "Announce sanctions",
+      "Choose a compromise"
+    ],
+    "correct": 0,
+    "explanation": "The guide begins its six-step process with gathering facts."
+  },
+  {
+    "chapter": 6,
+    "concept": "Ethical Decision Process: Issues",
+    "type": "Application",
+    "question": "After verifying what happened, a manager identifies competing obligations to customers and employees. Which step is this?",
+    "answers": [
+      "Define the ethical issues",
+      "Check instincts",
+      "Close negotiations",
+      "Allocate resources equally"
+    ],
+    "correct": 0,
+    "explanation": "The second step identifies the ethical tensions raised by the facts."
+  },
+  {
+    "chapter": 6,
+    "concept": "Ethical Decision Process: Stakeholders",
+    "type": "Application",
+    "question": "A supervisor maps who might be harmed, what consequences may follow, and which duties apply. Which step is this?",
+    "answers": [
+      "Identify affected parties, consequences, and obligations",
+      "Gather facts",
+      "Check instincts",
+      "Select a conflict style"
+    ],
+    "correct": 0,
+    "explanation": "The third step explicitly covers affected parties, consequences, and obligations."
+  },
+  {
+    "chapter": 6,
+    "concept": "Ethical Decision Process: Integrity",
+    "type": "Application",
+    "question": "A manager asks whether a proposed choice is consistent with their values and character. Which step is this?",
+    "answers": [
+      "Consider your integrity",
+      "Gather the facts",
+      "Clarify the agreement",
+      "Evaluate BATNA"
+    ],
+    "correct": 0,
+    "explanation": "Considering integrity is the fourth step."
+  },
+  {
+    "chapter": 6,
+    "concept": "Ethical Decision Process: Creativity",
+    "type": "Application",
+    "question": "Instead of choosing between firing an employee and ignoring misconduct, a manager explores corrective training and monitoring. Which step is this?",
+    "answers": [
+      "Think creatively about actions",
+      "Check instincts",
+      "Identify the affected parties",
+      "Define ethical issues"
+    ],
+    "correct": 0,
+    "explanation": "The fifth step encourages additional viable alternatives."
+  },
+  {
+    "chapter": 6,
+    "concept": "Ethical Decision Process: Instincts",
+    "type": "Application",
+    "question": "After reviewing evidence, duties, and alternatives, a manager reflects on whether the decision still feels ethically troubling. Which step is this?",
+    "answers": [
+      "Check your instincts",
+      "Gather facts",
+      "Generate a BATNA",
+      "Identify task conflict"
+    ],
+    "correct": 0,
+    "explanation": "Checking instincts is the final reflective step, not a substitute for analysis."
+  },
+  {
+    "chapter": 6,
+    "concept": "Integrated Case: Justice",
+    "type": "Application",
+    "question": "A project manager disciplines one employee for missed deadlines without checking whether deadlines were feasible for the entire team. Which fairness problem is most immediate?",
+    "answers": [
+      "Procedural justice",
+      "A stronger BATNA",
+      "Inspirational motivation",
+      "Logrolling"
+    ],
+    "correct": 0,
+    "explanation": "The manager's decision process may be unfair because relevant facts and consistent criteria were not considered."
+  },
+  {
+    "chapter": 6,
+    "concept": "Justice Dimensions",
+    "type": "Application",
+    "question": "Two workers receive different bonuses under a transparent performance formula applied consistently and explained respectfully. What is the best conclusion?",
+    "answers": [
+      "Different outcomes may still be fair if criteria, process, and treatment are fair",
+      "Different outcomes always violate distributive justice",
+      "Equal bonuses are required for procedural justice",
+      "Communication cannot influence fairness"
+    ],
+    "correct": 0,
+    "explanation": "The guide asks students to evaluate outcomes, procedures, and treatment together."
+  }
+]);
